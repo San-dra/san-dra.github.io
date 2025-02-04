@@ -1,0 +1,21 @@
+project:
+  type: website
+  title: "My Portfolio Website"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+
+website:
+  navbar:
+    left:
+      - text: "Home"
+        href: index
+      - text: "Projects"
+        menu:
+          - text: "Project 1"
+            href: projects/project1
+          - text: "Project 2"
+            href: projects/project2
