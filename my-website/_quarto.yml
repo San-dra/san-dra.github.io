@@ -1,7 +1,7 @@
 project:
   type: website
   title: "My Portfolio Website"
-  output-dir: ../ 
+  output-dir: ../
 
 format:
   html:
@@ -17,6 +17,6 @@ website:
       - text: "Projects"
         menu:
           - text: "Project 1"
-            href: projects/project1
+            href: projects/project1.html
           - text: "Project 2"
-            href: projects/project2
+            href: projects/project2.html

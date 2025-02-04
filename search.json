@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "Testing"
+  },
+  {
+    "objectID": "projects/project2.html#this-is-a-test",
+    "href": "projects/project2.html#this-is-a-test",
+    "title": "Project 2",
+    "section": "",
+    "text": "Testing"
+  },
+  {
     "objectID": "my-website.html",
     "href": "my-website.html",
     "title": "Sandra A. Huluka",
