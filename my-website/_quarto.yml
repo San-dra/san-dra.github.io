@@ -20,3 +20,5 @@ website:
             href: projects/project1.html
           - text: "Project 2"
             href: projects/project2.html
+          - text: "Sample Page"
+            href: ../test_site/test.html
