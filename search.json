@@ -2,15 +2,29 @@
   {
     "objectID": "my-website.html",
     "href": "my-website.html",
-    "title": "my-website",
+    "title": "Sandra A. Huluka",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "Testing"
   },
   {
-    "objectID": "my-website.html#quarto",
-    "href": "my-website.html#quarto",
-    "title": "my-website",
+    "objectID": "my-website.html#this-is-a-test",
+    "href": "my-website.html#this-is-a-test",
+    "title": "Sandra A. Huluka",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "Testing"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Testing"
+  },
+  {
+    "objectID": "projects/project1.html#this-is-a-test",
+    "href": "projects/project1.html#this-is-a-test",
+    "title": "Project 1",
+    "section": "",
+    "text": "Testing"
   }
 ]
