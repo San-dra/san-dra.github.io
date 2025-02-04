@@ -1,6 +1,7 @@
 project:
   type: website
   title: "My Portfolio Website"
+  output-dir: ../ 
 
 format:
   html:
