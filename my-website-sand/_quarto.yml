@@ -1,6 +1,6 @@
 project:
   title: "my-website-sand"
-  output-dir: docs
+  output-dir: ../docs
 
 
 

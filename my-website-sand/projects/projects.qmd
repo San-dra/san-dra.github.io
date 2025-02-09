@@ -1,0 +1,22 @@
+---
+title: "Project"
+format: html
+---
+
+# Projects
+
+## Project Title One
+
+Description of what the project is about, the technologies used, and the impact.
+
+- **Technologies**: Python, Quarto
+- **Outcome**: Optimized data processes, enhanced reporting capabilities.
+
+## Project Title Two
+
+Description of what the project is about, the technologies used, and the impact.
+
+- **Technologies**: R, Shiny
+- **Outcome**: Interactive web applications for data analysis.
+
+Explore each project to see detailed case studies and results.
