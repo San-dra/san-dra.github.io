@@ -1,7 +1,0 @@
----
-title: "Sandra A. Huluka"
----
-
-## This is a test
-
-Testing
