@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "resume/resume.html",
+    "href": "resume/resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Master of Finance\n\nUniversity of Example, 2021 - 2023\nRelevant coursework: Financial Modelling, Investment Analysis\n\n\n\n\n\n\nJunior Financial Analyst\n\nCompany XYZ, 2023 - Present\nResponsibilities: Financial forecasting, budget management, performance analysis.\n\n\n\n\n\n\nTools: Excel, SPSS, Power BI\nLanguages: Python, R\nTechniques: Regression Analysis, Time Series Forecasting\n\n\n\n\n\nCFA Level I\nCertified Financial Modeler\n\nDownload my resume (PDF)"
+  },
+  {
+    "objectID": "resume/resume.html#education",
+    "href": "resume/resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "Master of Finance\n\nUniversity of Example, 2021 - 2023\nRelevant coursework: Financial Modelling, Investment Analysis"
+  },
+  {
+    "objectID": "resume/resume.html#experience",
+    "href": "resume/resume.html#experience",
+    "title": "Resume",
+    "section": "",
+    "text": "Junior Financial Analyst\n\nCompany XYZ, 2023 - Present\nResponsibilities: Financial forecasting, budget management, performance analysis."
+  },
+  {
+    "objectID": "resume/resume.html#skills",
+    "href": "resume/resume.html#skills",
+    "title": "Resume",
+    "section": "",
+    "text": "Tools: Excel, SPSS, Power BI\nLanguages: Python, R\nTechniques: Regression Analysis, Time Series Forecasting"
+  },
+  {
+    "objectID": "resume/resume.html#certifications",
+    "href": "resume/resume.html#certifications",
+    "title": "Resume",
+    "section": "",
+    "text": "CFA Level I\nCertified Financial Modeler\n\nDownload my resume (PDF)"
+  },
+  {
+    "objectID": "portfolio/portfolio.html",
+    "href": "portfolio/portfolio.html",
+    "title": "Portfolio rendered",
+    "section": "",
+    "text": "Description of what the project is about, the technologies used, and the impact.\n\nTechnologies: Python, Quarto\nOutcome: Optimized data processes, enhanced reporting capabilities.\n\n\n\n\nDescription of what the project is about, the technologies used, and the impact.\n\nTechnologies: R, Shiny\nOutcome: Interactive web applications for data analysis.\n\nExplore each project to see detailed case studies and results."
+  },
+  {
+    "objectID": "portfolio/portfolio.html#project-title-one",
+    "href": "portfolio/portfolio.html#project-title-one",
+    "title": "Portfolio rendered",
+    "section": "",
+    "text": "Description of what the project is about, the technologies used, and the impact.\n\nTechnologies: Python, Quarto\nOutcome: Optimized data processes, enhanced reporting capabilities."
+  },
+  {
+    "objectID": "portfolio/portfolio.html#project-title-two",
+    "href": "portfolio/portfolio.html#project-title-two",
+    "title": "Portfolio rendered",
+    "section": "",
+    "text": "Description of what the project is about, the technologies used, and the impact.\n\nTechnologies: R, Shiny\nOutcome: Interactive web applications for data analysis.\n\nExplore each project to see detailed case studies and results."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Website",
+    "section": "",
+    "text": "Welcome to My Website\nCheck out my Blog, Resume, Portfolio, and Projects."
+  },
+  {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog where I share insights, tutorials, and updates on my latest projects.\n\n\n\nA brief overview of what this post covers.\nA brief overview of what this post covers.\n\nFeel free to browse and share your thoughts!"
+  },
+  {
+    "objectID": "blog/blog.html#latest-posts",
+    "href": "blog/blog.html#latest-posts",
+    "title": "Blog",
+    "section": "",
+    "text": "A brief overview of what this post covers.\nA brief overview of what this post covers.\n\nFeel free to browse and share your thoughts!"
+  },
+  {
+    "objectID": "my-website-sand.html",
+    "href": "my-website-sand.html",
+    "title": "my-website-sand",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "my-website-sand.html#quarto",
+    "href": "my-website-sand.html#quarto",
+    "title": "my-website-sand",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Project new",
+    "section": "",
+    "text": "Description of what the project is about, the technologies used, and the impact.\n\nTechnologies: Python, Quarto\nOutcome: Optimized data processes, enhanced reporting capabilities.\n\n\n\n\nDescription of what the project is about, the technologies used, and the impact.\n\nTechnologies: R, Shiny\nOutcome: Interactive web applications for data analysis.\n\nExplore each project to see detailed case studies and results."
+  },
+  {
+    "objectID": "projects/projects.html#project-title-one",
+    "href": "projects/projects.html#project-title-one",
+    "title": "Project new",
+    "section": "",
+    "text": "Description of what the project is about, the technologies used, and the impact.\n\nTechnologies: Python, Quarto\nOutcome: Optimized data processes, enhanced reporting capabilities."
+  },
+  {
+    "objectID": "projects/projects.html#project-title-two",
+    "href": "projects/projects.html#project-title-two",
+    "title": "Project new",
+    "section": "",
+    "text": "Description of what the project is about, the technologies used, and the impact.\n\nTechnologies: R, Shiny\nOutcome: Interactive web applications for data analysis.\n\nExplore each project to see detailed case studies and results."
+  }
+]
