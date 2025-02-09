@@ -1,9 +1,6 @@
 project:
-  title: "my-website"
+  title: "My Website"
 
 format:
   html:
     output-dir: "docs"
-
-
-
