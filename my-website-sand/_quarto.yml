@@ -1,6 +1,12 @@
 project:
   title: "my-website-sand"
+  type: website
   output-dir: ../docs
+
+format:
+  html:
+    includes:
+      in-header: includes/nav_bar.html
 
 
 

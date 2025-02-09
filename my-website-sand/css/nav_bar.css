@@ -1,0 +1,55 @@
+/* Full-height sidebar, fixed to the left side */
+.sidebar {
+    height: 100vh; /* Full viewport height */
+    width: 0; /* zero width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black background color */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* Transition effect when sliding in/out */
+    padding-top: 60px; /* Some top padding for aesthetics */
+}
+
+/* Sidebar links */
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181; /* Light grey color for links */
+    display: block;
+    transition: 0.3s; /* Smooth transitions on hover */
+}
+
+/* Highlight the links on hover */
+.sidebar a:hover {
+    color: #f1f1f1; /* White color for hover */
+}
+
+/* The close button */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* The open button styled */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111; /* Dark background for the button */
+    color: white;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 5px;
+}
+
+/* Add animation to the opening/closing of the sidebar */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

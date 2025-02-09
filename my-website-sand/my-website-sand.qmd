@@ -1,5 +1,14 @@
 ---
 title: "my-website-sand"
+
+format:
+  html:
+    includes:
+      in-header: includes/nav_bar.html
+
+
+
+
 ---
 
 ## Quarto
