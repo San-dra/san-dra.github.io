@@ -1,0 +1,9 @@
+project:
+  title: "my-website"
+
+format:
+  html:
+    output-dir: "docs"
+
+
+

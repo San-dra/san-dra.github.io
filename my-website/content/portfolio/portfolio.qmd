@@ -1,0 +1,34 @@
+---
+title: "Portfolio"
+format: html
+---
+
+# My Portfolio
+
+Welcome to my portfolio! Here, you'll find a showcase of my top projects, each demonstrating my skills and innovations in various domains.
+
+## Projects Overview
+
+### Project 1: [Project Title]
+A brief description of Project 1. Explore in-depth details and more about the project.
+[Read more](content/portfolio/project1/project1.qmd)
+
+### Project 2: [Project Title]
+A brief description of Project 2. Find out how I approached this project and the technologies used.
+[Read more](content/portfolio/project2/project2.qmd)
+
+### Project 3: [Project Title]
+Summary of what Project 3 entails and its impact.
+[Read more](content/portfolio/project3/project3.qmd)
+
+### Project 4: [Project Title]
+Overview of Project 4, highlighting key components and results.
+[Read more](content/portfolio/project4/project4.qmd)
+
+### Project 5: [Project Title]
+Description of Project 5, focusing on the challenges faced and solutions implemented.
+[Read more](content/portfolio/project5/project5.qmd)
+
+### Project 6: [Project Title]
+Insights into Project 6, discussing the project scope and the technology stack.
+[Read more](content/portfolio/project6/project6.qmd)
