@@ -1,0 +1,18 @@
+---
+title: "Blog"
+format: html
+---
+
+# Blog
+
+Welcome to my blog where I share insights, tutorials, and updates on my latest projects.
+
+## Latest Posts
+
+- **[Post Title One](post1.qmd)**
+  - A brief overview of what this post covers.
+
+- **[Post Title Two](post2.qmd)**
+  - A brief overview of what this post covers.
+
+Feel free to browse and share your thoughts!

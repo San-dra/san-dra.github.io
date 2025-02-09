@@ -1,0 +1,8 @@
+---
+title: "My Website"
+format: html
+---
+
+# Welcome to My Website
+
+Check out my [Blog](docs/blog/blog.html), [Resume](docs/resume/resume.html), [Portfolio](docs/portfolio/portfolio.html), and [Projects](docs/projects/projects.html).

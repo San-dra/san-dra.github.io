@@ -1,6 +1,0 @@
-project:
-  title: "My Website"
-
-format:
-  html:
-    output-dir: "docs"

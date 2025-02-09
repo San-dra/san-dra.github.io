@@ -1,0 +1,31 @@
+---
+title: "Resume"
+format: html
+---
+
+# Resume
+
+## Education
+
+- **Master of Finance**
+  - University of Example, 2021 - 2023
+  - Relevant coursework: Financial Modelling, Investment Analysis
+
+## Experience
+
+- **Junior Financial Analyst**
+  - Company XYZ, 2023 - Present
+  - Responsibilities: Financial forecasting, budget management, performance analysis.
+
+## Skills
+
+- **Tools**: Excel, SPSS, Power BI
+- **Languages**: Python, R
+- **Techniques**: Regression Analysis, Time Series Forecasting
+
+## Certifications
+
+- CFA Level I
+- Certified Financial Modeler
+
+[Download my resume (PDF)](link-to-your-resume.pdf)
