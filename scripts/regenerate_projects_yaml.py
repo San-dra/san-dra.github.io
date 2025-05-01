@@ -8,7 +8,7 @@ projects_dir = "projects"
 output_file = os.path.join(projects_dir, "projects.yaml")
 
 # Define fields to extract
-fields_to_keep = ["title", "highlight", "description", "domain", "techstack", "hover_gif", "thumbnail", "live_demo"]
+fields_to_keep = ["title", "highlight", "description", "domain", "techicons", "hover_gif", "thumbnail", "live_demo"]
 
 
 # Collect all entries

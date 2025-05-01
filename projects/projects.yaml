@@ -2,8 +2,8 @@
   highlight: false
   description: Short summary of what the project is about, its use case, or audience.
   domain: null
-  techstack:
-  - Select Techstack
+  techicons:
+  - powerbi.svg
   hover_gif: Digital Marketing Performance Dashboard UrbanNest/images/thumbnail.gif
   thumbnail: Digital Marketing Performance Dashboard UrbanNest/images/thumbnail.png
   live_demo: ''
@@ -12,8 +12,8 @@
   highlight: false
   description: Short summary of what the project is about, its use case, or audience.
   domain: null
-  techstack:
-  - Select Techstack
+  techicons:
+  - powerbi.svg
   hover_gif: Disbursement and Usage Insights Dashboard MobiFund/images/thumbnail.gif
   thumbnail: Disbursement and Usage Insights Dashboard MobiFund/images/thumbnail.png
   live_demo: ''
@@ -22,8 +22,8 @@
   highlight: false
   description: Short summary of what the project is about, its use case, or audience.
   domain: null
-  techstack:
-  - Select Techstack
+  techicons:
+  - powerbi.svg
   hover_gif: End-to-End Retail Analytics Pipeline/images/thumbnail.gif
   thumbnail: End-to-End Retail Analytics Pipeline/images/thumbnail.png
   live_demo: ''
@@ -32,8 +32,8 @@
   highlight: false
   description: Short summary of what the project is about, its use case, or audience.
   domain: null
-  techstack:
-  - Select Techstack
+  techicons:
+  - powerbi.svg
   hover_gif: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.gif
   thumbnail: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.png
   live_demo: ''

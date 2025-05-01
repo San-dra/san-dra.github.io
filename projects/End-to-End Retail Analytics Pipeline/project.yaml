@@ -135,7 +135,7 @@ techstack:
   # - Apache Airflow
 
 techicons:
-    - Select Techstack Icons 
+    - powerbi.svg
   # - images/python.png
   # - images/powerbi.png 
   # - images/postgresql.png
