@@ -1,5 +1,7 @@
 import os
 import yaml
+import json  # Add at the top of your script if not already
+
 
 # Define project root and output file
 projects_dir = "projects"
@@ -27,4 +29,11 @@ for project_name in os.listdir(projects_dir):
 with open(output_file, "w") as f:
     yaml.dump(projects_summary, f, sort_keys=False)
 
+
 print(f"✅ Rebuilt {output_file} with {len(projects_summary)} project(s).")
+
+
+# Write JSON file for frontend
+with open(os.path.join(projects_dir, "projects.json"), "w") as jf:
+    json.dump(projects_summary, jf, indent=2)
+

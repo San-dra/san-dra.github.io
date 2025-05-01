@@ -4,7 +4,7 @@ format: html
 ---
 
 ::: {.hero}
-# 🔷 PROJECT TITLE HERE
+# 🔷 Digital Marketing Performance Dashboard UrbanNest
 _A short tagline goes here._
 
 **📌 Description**:  

@@ -16,7 +16,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css:
+      - ../assets/css/components/card.css    # 🔧 Only add component-level styles
+      - ../assets/css/components/nav.css     # 🔧 Add more as needed
     toc: true
     toc-depth: 2
     mainfont: "Fira Sans"
