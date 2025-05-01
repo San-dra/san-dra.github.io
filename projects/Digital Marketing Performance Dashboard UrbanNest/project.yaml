@@ -153,7 +153,7 @@ tags:
   # - customer insights
 
 # === VISUALS ===
-thumbnail: "images/thumbnail.jpg"     # Preview image
+thumbnail: "images/thumbnail.png"     # Preview image
 hover_gif: "images/thumbnail.gif"     # Optional: hover effect GIF
 
 # === CONTENT FILE ===

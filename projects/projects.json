@@ -7,7 +7,8 @@
     "techstack": [
       "Select Techstack"
     ],
-    "hover_gif": "images/thumbnail.gif",
+    "hover_gif": "Digital Marketing Performance Dashboard UrbanNest/images/thumbnail.gif",
+    "thumbnail": "Digital Marketing Performance Dashboard UrbanNest/images/thumbnail.png",
     "live_demo": "",
     "slug": "digital-marketing-performance-dashboard-urbannest"
   },
@@ -19,7 +20,8 @@
     "techstack": [
       "Select Techstack"
     ],
-    "hover_gif": "images/thumbnail.gif",
+    "hover_gif": "Disbursement and Usage Insights Dashboard MobiFund/images/thumbnail.gif",
+    "thumbnail": "Disbursement and Usage Insights Dashboard MobiFund/images/thumbnail.png",
     "live_demo": "",
     "slug": "disbursement-and-usage-insights-dashboard-mobifund"
   },
@@ -31,7 +33,8 @@
     "techstack": [
       "Select Techstack"
     ],
-    "hover_gif": "images/thumbnail.gif",
+    "hover_gif": "End-to-End Retail Analytics Pipeline/images/thumbnail.gif",
+    "thumbnail": "End-to-End Retail Analytics Pipeline/images/thumbnail.png",
     "live_demo": "",
     "slug": "end-to-end-retail-analytics-pipeline"
   },
@@ -43,7 +46,8 @@
     "techstack": [
       "Select Techstack"
     ],
-    "hover_gif": "images/thumbnail.gif",
+    "hover_gif": "VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.gif",
+    "thumbnail": "VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.png",
     "live_demo": "",
     "slug": "vizlab---creating-custom-superset-chart-plugins"
   }

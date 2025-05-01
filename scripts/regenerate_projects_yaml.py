@@ -8,7 +8,8 @@ projects_dir = "projects"
 output_file = os.path.join(projects_dir, "projects.yaml")
 
 # Define fields to extract
-fields_to_keep = ["title", "highlight", "description", "domain", "techstack", "hover_gif", "live_demo"]
+fields_to_keep = ["title", "highlight", "description", "domain", "techstack", "hover_gif", "thumbnail", "live_demo"]
+
 
 # Collect all entries
 projects_summary = []
@@ -21,8 +22,19 @@ for project_name in os.listdir(projects_dir):
         with open(yaml_file, "r") as f:
             data = yaml.safe_load(f)
 
-        summary = {key: data.get(key, "") for key in fields_to_keep}
-        summary["slug"] = data.get("slug", project_name.lower().replace(" ", "-"))  # fallback slug
+        summary = {}
+        for key in fields_to_keep:
+            value = data.get(key, "")
+            
+            # Prefix image paths with project folder name
+            if key in ["hover_gif", "thumbnail"] and value:
+                value = f"{project_name}/images/{os.path.basename(value)}"
+
+            summary[key] = value
+
+        # Fallback for slug
+        summary["slug"] = data.get("slug", project_name.lower().replace(" ", "-"))
+
         projects_summary.append(summary)
 
 # Write all to projects.yaml

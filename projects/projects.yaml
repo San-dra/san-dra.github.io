@@ -4,7 +4,8 @@
   domain: null
   techstack:
   - Select Techstack
-  hover_gif: images/thumbnail.gif
+  hover_gif: Digital Marketing Performance Dashboard UrbanNest/images/thumbnail.gif
+  thumbnail: Digital Marketing Performance Dashboard UrbanNest/images/thumbnail.png
   live_demo: ''
   slug: digital-marketing-performance-dashboard-urbannest
 - title: Disbursement and Usage Insights Dashboard MobiFund
@@ -13,7 +14,8 @@
   domain: null
   techstack:
   - Select Techstack
-  hover_gif: images/thumbnail.gif
+  hover_gif: Disbursement and Usage Insights Dashboard MobiFund/images/thumbnail.gif
+  thumbnail: Disbursement and Usage Insights Dashboard MobiFund/images/thumbnail.png
   live_demo: ''
   slug: disbursement-and-usage-insights-dashboard-mobifund
 - title: End-to-End Retail Analytics Pipeline
@@ -22,7 +24,8 @@
   domain: null
   techstack:
   - Select Techstack
-  hover_gif: images/thumbnail.gif
+  hover_gif: End-to-End Retail Analytics Pipeline/images/thumbnail.gif
+  thumbnail: End-to-End Retail Analytics Pipeline/images/thumbnail.png
   live_demo: ''
   slug: end-to-end-retail-analytics-pipeline
 - title: VizLab - Creating Custom Superset Chart Plugins
@@ -31,6 +34,7 @@
   domain: null
   techstack:
   - Select Techstack
-  hover_gif: images/thumbnail.gif
+  hover_gif: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.gif
+  thumbnail: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.png
   live_demo: ''
   slug: vizlab---creating-custom-superset-chart-plugins
