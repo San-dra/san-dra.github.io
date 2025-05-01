@@ -1,0 +1,30 @@
+import os
+import yaml
+
+# Define project root and output file
+projects_dir = "projects"
+output_file = os.path.join(projects_dir, "projects.yaml")
+
+# Define fields to extract
+fields_to_keep = ["title", "highlight", "description", "domain", "techstack", "hover_gif", "live_demo"]
+
+# Collect all entries
+projects_summary = []
+
+for project_name in os.listdir(projects_dir):
+    project_path = os.path.join(projects_dir, project_name)
+    yaml_file = os.path.join(project_path, "project.yaml")
+
+    if os.path.isdir(project_path) and os.path.isfile(yaml_file):
+        with open(yaml_file, "r") as f:
+            data = yaml.safe_load(f)
+
+        summary = {key: data.get(key, "") for key in fields_to_keep}
+        summary["slug"] = data.get("slug", project_name.lower().replace(" ", "-"))  # fallback slug
+        projects_summary.append(summary)
+
+# Write all to projects.yaml
+with open(output_file, "w") as f:
+    yaml.dump(projects_summary, f, sort_keys=False)
+
+print(f"✅ Rebuilt {output_file} with {len(projects_summary)} project(s).")

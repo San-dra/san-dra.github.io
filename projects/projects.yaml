@@ -1,0 +1,36 @@
+- title: Digital Marketing Performance Dashboard UrbanNest
+  highlight: false
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  techstack:
+  - Select Techstack
+  hover_gif: images/thumbnail.gif
+  live_demo: ''
+  slug: digital-marketing-performance-dashboard-urbannest
+- title: Disbursement and Usage Insights Dashboard MobiFund
+  highlight: false
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  techstack:
+  - Select Techstack
+  hover_gif: images/thumbnail.gif
+  live_demo: ''
+  slug: disbursement-and-usage-insights-dashboard-mobifund
+- title: End-to-End Retail Analytics Pipeline
+  highlight: false
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  techstack:
+  - Select Techstack
+  hover_gif: images/thumbnail.gif
+  live_demo: ''
+  slug: end-to-end-retail-analytics-pipeline
+- title: VizLab - Creating Custom Superset Chart Plugins
+  highlight: false
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  techstack:
+  - Select Techstack
+  hover_gif: images/thumbnail.gif
+  live_demo: ''
+  slug: vizlab---creating-custom-superset-chart-plugins
