@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project Details</title>
+  <link rel="stylesheet" href="../../assets/css/project.css" />
+  <script src="project.js" defer></script>
+</head>
+<body>
+  <main id="project-page">
+    <section class="project-header">
+      <h1 id="project-title"></h1>
+      <p id="project-description"></p>
+      <a id="live-demo-link" href="#" target="_blank">🔗 Live Demo</a>
+    </section>
+
+    <section class="project-body">
+      <!-- Inject rendered Quarto HTML from /content/index.html here -->
+      <iframe src="./content/index.html" frameborder="0" width="100%" height="600px"></iframe>
+    </section>
+
+    <section class="project-related">
+      <h2>Related Content</h2>
+      <div class="related-blogs" id="related-blogs"></div>
+      <div class="related-projects" id="related-projects"></div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: ../content
+
+website:
+  title: "Project Title"
+  navbar: false
+
+format:
+  html:
+    theme: none
+    toc: false
+    sidebar: false
+    embed-resources: false
+    css:
+      - styles.css
+      - ../../assets/css/main.css
+    include-in-header: ""
+    include-before-body: ""
+    include-after-body: ""
+
+    page-layout: full

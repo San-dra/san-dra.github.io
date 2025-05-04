@@ -1,0 +1,111 @@
+projects:
+- title: Digital Marketing Performance Dashboard
+  highlight: true
+  project_type: portfolio project
+  project_repo: ''
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  subdomain:
+    Data Engineering: null
+    Data Analysis: null
+    Data Visualization: null
+    Machine Learning: null
+  application_area: null
+  tags:
+  - dashboard
+  - real-time data
+  - batch processing
+  techstack:
+  - Power BI
+  techicons:
+  - Power BI:
+      icon: images/powerbi.svg
+      alt: Power BI
+  gallery:
+  - Digital Marketing Performance Dashboard/images/image_1.png
+  - Digital Marketing Performance Dashboard/images/image_2.png
+  - Digital Marketing Performance Dashboard/images/image_3.png
+  hover_gif: Digital Marketing Performance Dashboard/images/thumbnail.gif
+  thumbnail: Digital Marketing Performance Dashboard/images/thumbnail.png
+  live_demo: ''
+  slug: digital-marketing-performance-dashboard
+- title: End-to-End Retail Analytics Pipeline
+  highlight: true
+  project_type: portfolio project
+  project_repo: ''
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  subdomain:
+    Data Engineering: null
+    Data Analysis: null
+    Data Visualization: null
+    Machine Learning: null
+  application_area: null
+  tags:
+  - dashboard
+  - real-time data
+  - batch processing
+  techstack:
+  - Power BI
+  techicons:
+  - Power BI:
+      icon: images/powerbi.svg
+      alt: Power BI
+  gallery:
+  - End-to-End Retail Analytics Pipeline/images/image_1.png
+  - End-to-End Retail Analytics Pipeline/images/image_2.png
+  - End-to-End Retail Analytics Pipeline/images/image_3.png
+  hover_gif: End-to-End Retail Analytics Pipeline/images/thumbnail.gif
+  thumbnail: End-to-End Retail Analytics Pipeline/images/thumbnail.png
+  live_demo: ''
+  slug: end-to-end-retail-analytics-pipeline
+- title: VizLab - Creating Custom Superset Chart Plugins
+  highlight: true
+  project_type: ''
+  project_repo: ''
+  description: Short summary of what the project is about, its use case, or audience.
+  domain: null
+  subdomain:
+    Data Engineering: null
+    Data Analysis: null
+    Data Visualization: null
+    Machine Learning: null
+    Artificial Intelligence: null
+    Full Stack Development: null
+    Frontend Development: null
+    Backend Development: null
+    DevOps: null
+    Cloud Computing: null
+    Financial Analysis: null
+  application_area: null
+  tags:
+  - select tags
+  techstack:
+  - Select Techstack
+  - Power BI
+  techicons:
+  - powerbi.svg
+  gallery: ''
+  hover_gif: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.gif
+  thumbnail: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.png
+  live_demo: ''
+  slug: vizlab---creating-custom-superset-chart-plugins
+blogs:
+- title: blog 1
+  excerpt: Short intro or summary of the blog post.
+  tags:
+  - tutorial
+  - data visualization
+  thumbnail: blog 1/images/thumbnail.png
+  hover_gif: blog 1/images/thumbnail.gif
+  slug: blog-1
+  content: blog 1/content/index.html
+- title: blog 2
+  excerpt: Short intro or summary of the blog post.
+  tags:
+  - tutorial
+  - data visualization
+  thumbnail: blog 2/images/thumbnail.png
+  hover_gif: blog 2/images/thumbnail.gif
+  slug: blog-2
+  content: blog 2/content/index.html

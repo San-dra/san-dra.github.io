@@ -1,0 +1,30 @@
+# _quarto.yml
+project:
+  type: website
+  output-dir: ../content
+
+website:
+  title: "{{ blog_title }}"  # 🔶 REPLACE with actual project title
+  navbar:
+    left:
+      - text: "Home"
+        href: index.html
+
+
+format:
+  html:
+    theme: cosmo
+    css:
+      - ../assets/css/components/card.css
+      - ../assets/css/components/nav.css
+      - ../assets/css/blog.css
+    toc: true
+    toc-depth: 2
+    mainfont: "Fira Sans"
+    monofont: "Fira Code"
+    smooth-scroll: true
+    grid:
+      sidebar-width: 250px
+      body-width: 960px
+      margin-width: 300px
+    link-external-newwindow: true

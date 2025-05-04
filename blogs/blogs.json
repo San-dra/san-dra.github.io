@@ -1,0 +1,26 @@
+[
+  {
+    "title": "blog 1",
+    "excerpt": "Short intro or summary of the blog post.",
+    "tags": [
+      "tutorial",
+      "data visualization"
+    ],
+    "thumbnail": "blog 1/images/thumbnail.png",
+    "hover_gif": "blog 1/images/thumbnail.gif",
+    "slug": "blog-1",
+    "content": "blog 1/content/index.html"
+  },
+  {
+    "title": "blog 2",
+    "excerpt": "Short intro or summary of the blog post.",
+    "tags": [
+      "tutorial",
+      "data visualization"
+    ],
+    "thumbnail": "blog 2/images/thumbnail.png",
+    "hover_gif": "blog 2/images/thumbnail.gif",
+    "slug": "blog-2",
+    "content": "blog 2/content/index.html"
+  }
+]

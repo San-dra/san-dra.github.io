@@ -1,0 +1,126 @@
+# === BASIC INFO ===
+title: "Digital Marketing Performance Dashboard"
+highlight: true                                # Feature on homepage?
+created_by: "san-dra"
+created_timestamp: "2025-05-03 02:02:39"
+slug: "digital-marketing-performance-dashboard"
+project_id: "proj_1746226959_san-dra"
+project_type: "portfolio project"              # e.g., "portfolio project", "other"
+
+# === EXTERNAL LINKS ===
+project_repo: ""                               # GitHub repo link (optional)
+live_demo: ""                                  # Live demo or public link (optional)
+live_demo_text: "Live Demo"                    # Text for live demo link (optional)
+
+# === DESCRIPTION ===
+description: "Short summary of what the project is about, its use case, or audience."
+
+# === FUNCTIONAL DOMAIN (TECHNICAL FOCUS AREAS) ===
+domain:
+  # - Data Engineering
+  # - Data Analysis
+  # - Data Visualization
+  # - Machine Learning
+  # - Artificial Intelligence
+  # - Full Stack Development
+  # - Frontend Development
+  # - Backend Development
+  # - DevOps
+  # - Cloud Computing
+  # - Software Engineering
+  # - Web Development
+  # - Business Intelligence
+  # - Financial Analysis
+
+# === SUBDOMAIN ===
+subdomain:
+  Data Engineering:
+    # - ETL Processes
+    # - Data Integration
+    # - Data Modeling
+    # - Pipeline Orchestration
+    # - Batch Pipelines
+    # - Streaming Pipelines
+
+  Data Analysis:
+    # - EDA
+    # - Data Cleaning
+    # - Statistical Analysis
+    # - Forecasting
+    # - Simulation
+
+  Data Visualization:
+    # - Dashboard Design
+    # - Wireframing
+    # - Data Storytelling
+    # - Custom Charting
+
+  Machine Learning:
+    # - Model Deployment
+    # - Feature Engineering
+    # - Supervised Learning
+    # - Recommendation Systems
+
+# === APPLICATION AREA (REAL-WORLD CONTEXT) ===
+application_area:
+  # - Finance
+  # - Marketing
+  # - Healthcare
+  # - Retail
+  # - E-Commerce
+  # - Education
+  # - Public Health
+  # - Social Impact
+  # - Transportation
+  # - Environment
+
+# === TECH STACK ===
+techstack:
+  - Power BI
+  # - Python
+  # - PostgreSQL
+  # - Airflow
+  # - React
+
+techicons:
+  - Power BI:
+      icon: "images/powerbi.svg"
+      alt: "Power BI"
+  # - Python:
+  #     icon: "images/python.svg"
+  #     alt: "Python"
+
+# === TAGS (FOR FILTERING/SEARCH) ===
+tags:
+  - dashboard
+  - real-time data
+  - batch processing
+  # - automation
+  # - cloud-native
+
+# === VISUALS ===
+thumbnail: "images/thumbnail.png"       # Preview image
+hover_gif: "images/thumbnail.gif"       # Hover effect
+gallery:
+  - "images/image_1.png"
+  - "images/image_2.png"
+  - "images/image_3.png"
+
+# === CONTENT FILE ===
+content: "digital-marketing-performance-dashboard/index.html"
+
+# === METADATA ===
+last_update: "2025-05-03"
+status: "completed"                     # Options: completed, in-progress, archived
+
+# === RELATIONSHIPS ===
+related_projects:
+  - "related-project-slug-1"
+  - "related-project-slug-2"
+
+related_blog_posts:
+  - "related-blog-post-slug-1"
+  - "related-blog-post-slug-2"
+related_resources:
+  - "related-resource-slug-1"
+  - "related-resource-slug-2"

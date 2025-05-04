@@ -1,0 +1,22 @@
+title: "SAN-DRA PORTFOLIO"
+
+main_navigation:
+  - text: "Home"
+    href: "index.html"
+    image: "https://sandra-alemayehu.github.io/assets/images/home.png"
+  - text: "Projects"
+    href: "projects/index.html"
+    image: "https://sandra-alemayehu.github.io/assets/images/projects.png"
+  - text: "Blogs"
+    href: "blogs/index.html"
+    image: "https://sandra-alemayehu.github.io/assets/images/blogs.png"
+  - text: "Resume"
+    href: "resume.html"
+    image: "https://sandra-alemayehu.github.io/assets/images/resume.png"
+  - text: "Contact"
+    href: "#contact"
+    image: "https://sandra-alemayehu.github.io/assets/images/contact.png"
+
+
+
+

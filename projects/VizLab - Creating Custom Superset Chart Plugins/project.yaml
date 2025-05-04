@@ -1,6 +1,6 @@
 # === BASIC INFO ===
 title: "VizLab - Creating Custom Superset Chart Plugins"
-highlight: false          # [true/false] Feature on homepage?
+highlight: true          # [true/false] Feature on homepage?
 slug: "vizlab---creating-custom-superset-chart-plugins"
 
 # === DESCRIPTION ===
@@ -130,7 +130,7 @@ techstack:
   # Select the technologies used in this project.
     - Select Techstack 
   # - Python
-  # - Power BI
+    - Power BI
   # - PostgreSQL
   # - Apache Airflow
 

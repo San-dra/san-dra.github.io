@@ -1,0 +1,26 @@
+---
+title: "Blog Title Here"
+date: "2025-05-01"
+format:
+  html:
+    toc: true
+    css: styles.css
+---
+
+::: {.hero}
+# Blog Title Here
+
+📅 *Published on 2025-05-01*
+:::
+
+## Introduction
+
+Write a short intro to your blog post here.
+
+## Main Content
+
+Start writing your blog content using Markdown or Quarto features.
+
+## Summary / Reflection
+
+Wrap up your blog with key takeaways, insights, or closing thoughts.

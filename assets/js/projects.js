@@ -1,52 +1,60 @@
-// ===== projects.js =====
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("project.json")
+    .then((res) => res.json())
+    .then((data) => {
+      document.getElementById("project-title").textContent = data.title;
+      document.getElementById("project-description").textContent = data.description;
+
+      const liveLink = document.getElementById("live-demo-link");
+      if (data.live_demo) {
+        liveLink.href = data.live_demo;
+      } else {
+        liveLink.style.display = "none";
+      }
+
+      // Inject related blogs
+      const blogContainer = document.getElementById("related-blogs");
+      if (data.related_blog_posts && data.related_blog_posts.length > 0) {
+        blogContainer.innerHTML = "<h3>Related Blogs</h3>";
+        data.related_blog_posts.forEach((slug) => {
+          const el = document.createElement("a");
+          el.href = `../../blogs/${slug}/content/index.html`;
+          el.textContent = slug.replace(/-/g, " ");
+          el.className = "related-item";
+          blogContainer.appendChild(el);
+        });
+      }
+
+      // Inject related projects
+      const projContainer = document.getElementById("related-projects");
+      if (data.related_projects && data.related_projects.length > 0) {
+        projContainer.innerHTML = "<h3>Related Projects</h3>";
+        data.related_projects.forEach((slug) => {
+          const el = document.createElement("a");
+          el.href = `../${slug}/index.html`;
+          el.textContent = slug.replace(/-/g, " ");
+          el.className = "related-item";
+          projContainer.appendChild(el);
+        });
+      }
+    })
+    .catch((err) => {
+      console.error("Error loading project.json:", err);
+    });
+});
 
 document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("projects-list");
-  if (!container) {
-    console.error("❌ Missing #projects-list container in HTML.");
-    return;
-  }
+  fetch("content/index.html")
+    .then(response => response.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, "text/html");
 
-  fetch("../projects/projects.json")
-    .then(response => {
-      if (!response.ok) throw new Error("Failed to fetch projects.json");
-      return response.json();
-    })
-    .then(data => {
-      data.forEach(project => {
-        const card = document.createElement("div");
-        card.className = "project-card";
-
-        const hoverGif = `../projects/${project.hover_gif}`;
-        const thumbnail = `../projects/${project.thumbnail}`;
-
-        const iconList = (project.techicons || []).map(icon => {
-          const iconPath1 = `../assets/images/${icon}`;
-          const iconPath2 = `../assets/icons/${icon}`;
-
-          return `
-            <div class="techicon">
-              <img src="${iconPath1}" alt="${icon}" onerror="this.onerror=null;this.src='${iconPath2}';" onload="this.dataset.loaded = true" />
-            </div>
-          `;
-        }).join(" ");
-
-        const techstackText = (project.techstack || []).join(", ");
-
-        card.innerHTML = `
-          <a href="../projects/${project.title}/content/index.html">
-            <img src="${thumbnail}" alt="${project.title}" onmouseover="this.src='${hoverGif}'" onmouseout="this.src='${thumbnail}'" />
-            <h2>${project.title}</h2>
-            <p>${project.description}</p>
-            <p class="tags"><strong>Stack:</strong> ${techstackText}</p>
-            <div class="icons">${iconList}</div>
-          </a>
-        `;
-
-        container.appendChild(card);
-      });
+      const projectBody = doc.querySelector(".project-body") || doc.querySelector("main");
+      document.getElementById("project-body").innerHTML = projectBody.innerHTML;
     })
     .catch(error => {
-      console.error("❌ Error loading projects.json:", error);
+      console.error("Error loading project content:", error);
+      document.getElementById("project-body").innerHTML = "<p>⚠️ Could not load content.</p>";
     });
 });
