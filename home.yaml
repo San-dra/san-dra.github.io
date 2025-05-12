@@ -1,111 +1,346 @@
 projects:
-- title: Digital Marketing Performance Dashboard
-  highlight: true
-  project_type: portfolio project
-  project_repo: ''
-  description: Short summary of what the project is about, its use case, or audience.
-  domain: null
-  subdomain:
-    Data Engineering: null
-    Data Analysis: null
-    Data Visualization: null
-    Machine Learning: null
-  application_area: null
-  tags:
-  - dashboard
-  - real-time data
-  - batch processing
-  techstack:
-  - Power BI
-  techicons:
-  - Power BI:
-      icon: images/powerbi.svg
-      alt: Power BI
+- content_title: my new proo
+  slug: my-new-proo
+  content_type: project
+  content_destination: projects
+  content_subtype: ''
+  highlight: 'true'
+  status: draft
+  content_source: projects/my-new-proo/content/index.html
+  content_page: projects/my-new-proo/index.html
+  excerpt: ''
+  author: san-dra
+  created_timestamp: '2025-05-12 16:05:51'
+  created_date: '2025-05-12'
+  last_updated_timestamp: '2025-05-12 16:05:51'
+  last_updated_date: '2025-05-12'
+  content_id: projectmy1747055151sandra
+  content_repo: ''
+  live_demo: ''
+  live_demo_text: Live Demo
+  thumbnail: projects/my-new-proo/images/thumbnail.png
+  hover_gif: projects/my-new-proo/images/thumbnail.gif
+  banner: projects/my-new-proo/images/banner.png
   gallery:
-  - Digital Marketing Performance Dashboard/images/image_1.png
-  - Digital Marketing Performance Dashboard/images/image_2.png
-  - Digital Marketing Performance Dashboard/images/image_3.png
-  hover_gif: Digital Marketing Performance Dashboard/images/thumbnail.gif
-  thumbnail: Digital Marketing Performance Dashboard/images/thumbnail.png
-  live_demo: ''
-  slug: digital-marketing-performance-dashboard
-- title: End-to-End Retail Analytics Pipeline
-  highlight: true
-  project_type: portfolio project
-  project_repo: ''
-  description: Short summary of what the project is about, its use case, or audience.
-  domain: null
+  - projects/my-new-proo/images/image_1.png
+  - projects/my-new-proo/images/image_2.png
+  - projects/my-new-proo/images/image_3.png
+  domain:
+  - domain 1
+  - domain 2
   subdomain:
-    Data Engineering: null
-    Data Analysis: null
-    Data Visualization: null
-    Machine Learning: null
-  application_area: null
-  tags:
-  - dashboard
-  - real-time data
-  - batch processing
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
   techstack:
-  - Power BI
-  techicons:
-  - Power BI:
-      icon: images/powerbi.svg
-      alt: Power BI
+  - powerbi
+  - python
+  application_area:
+  - application area 1
+  - application area 2
+  tags:
+  - tag 1
+  - tag 2
+  related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+  related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+  related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
+- content_title: proh 89
+  slug: proh-89
+  content_type: project
+  content_destination: projects
+  content_subtype: ''
+  highlight: 'true'
+  status: draft
+  content_source: projects/proh-89/content/index.html
+  content_page: projects/proh-89/index.html
+  excerpt: ''
+  author: san-dra
+  created_timestamp: '2025-05-12 16:05:06'
+  created_date: '2025-05-12'
+  last_updated_timestamp: '2025-05-12 16:05:06'
+  last_updated_date: '2025-05-12'
+  content_id: projectpro1747055106sandra
+  content_repo: ''
+  live_demo: ''
+  live_demo_text: Live Demo
+  thumbnail: projects/proh-89/images/thumbnail.png
+  hover_gif: projects/proh-89/images/thumbnail.gif
+  banner: projects/proh-89/images/banner.png
   gallery:
-  - End-to-End Retail Analytics Pipeline/images/image_1.png
-  - End-to-End Retail Analytics Pipeline/images/image_2.png
-  - End-to-End Retail Analytics Pipeline/images/image_3.png
-  hover_gif: End-to-End Retail Analytics Pipeline/images/thumbnail.gif
-  thumbnail: End-to-End Retail Analytics Pipeline/images/thumbnail.png
-  live_demo: ''
-  slug: end-to-end-retail-analytics-pipeline
-- title: VizLab - Creating Custom Superset Chart Plugins
-  highlight: true
-  project_type: ''
-  project_repo: ''
-  description: Short summary of what the project is about, its use case, or audience.
-  domain: null
+  - projects/proh-89/images/image_1.png
+  - projects/proh-89/images/image_2.png
+  - projects/proh-89/images/image_3.png
+  domain:
+  - domain 1
+  - domain 2
   subdomain:
-    Data Engineering: null
-    Data Analysis: null
-    Data Visualization: null
-    Machine Learning: null
-    Artificial Intelligence: null
-    Full Stack Development: null
-    Frontend Development: null
-    Backend Development: null
-    DevOps: null
-    Cloud Computing: null
-    Financial Analysis: null
-  application_area: null
-  tags:
-  - select tags
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
   techstack:
-  - Select Techstack
-  - Power BI
-  techicons:
-  - powerbi.svg
-  gallery: ''
-  hover_gif: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.gif
-  thumbnail: VizLab - Creating Custom Superset Chart Plugins/images/thumbnail.png
+  - powerbi
+  - python
+  application_area:
+  - application area 1
+  - application area 2
+  tags:
+  - tag 1
+  - tag 2
+  related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+  related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+  related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
+- content_title: project gh
+  slug: project-gh
+  content_type: project
+  content_destination: projects
+  content_subtype: ''
+  highlight: 'true'
+  status: draft
+  content_source: projects/project-gh/content/index.html
+  content_page: projects/project-gh/index.html
+  excerpt: ''
+  author: san-dra
+  created_timestamp: '2025-05-12 17:59:11'
+  created_date: '2025-05-12'
+  last_updated_timestamp: '2025-05-12 17:59:11'
+  last_updated_date: '2025-05-12'
+  content_id: projectpro1747061951sandra
+  content_repo: ''
   live_demo: ''
-  slug: vizlab---creating-custom-superset-chart-plugins
+  live_demo_text: Live Demo
+  thumbnail: projects/project-gh/images/thumbnail.png
+  hover_gif: projects/project-gh/images/thumbnail.gif
+  banner: projects/project-gh/images/banner.png
+  gallery:
+  - projects/project-gh/images/image_1.png
+  - projects/project-gh/images/image_2.png
+  - projects/project-gh/images/image_3.png
+  domain:
+  - domain 1
+  - domain 2
+  subdomain:
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
+  techstack:
+  - powerbi
+  - python
+  application_area:
+  - application area 1
+  - application area 2
+  tags:
+  - tag 1
+  - tag 2
+  related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+  related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+  related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
 blogs:
-- title: blog 1
-  excerpt: Short intro or summary of the blog post.
+- content_title: 1frg
+  slug: 1frg
+  content_type: blog
+  content_destination: blogs
+  content_subtype: ''
+  highlight: 'true'
+  status: draft
+  content_source: blogs/1frg/content/index.html
+  content_page: blogs/1frg/index.html
+  excerpt: ''
+  author: san-dra
+  created_timestamp: '2025-05-12 17:34:14'
+  created_date: '2025-05-12'
+  last_updated_timestamp: '2025-05-12 17:34:14'
+  last_updated_date: '2025-05-12'
+  content_id: blog1fr1747060454sandra
+  content_repo: ''
+  live_demo: ''
+  live_demo_text: Live Demo
+  thumbnail: blogs/1frg/images/thumbnail.png
+  hover_gif: blogs/1frg/images/thumbnail.gif
+  banner: blogs/1frg/images/banner.png
+  gallery:
+  - blogs/1frg/images/image_1.png
+  - blogs/1frg/images/image_2.png
+  - blogs/1frg/images/image_3.png
+  domain:
+  - domain 1
+  - domain 2
+  subdomain:
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
+  techstack:
+  - powerbi
+  - python
+  application_area:
+  - application area 1
+  - application area 2
   tags:
-  - tutorial
-  - data visualization
-  thumbnail: blog 1/images/thumbnail.png
-  hover_gif: blog 1/images/thumbnail.gif
-  slug: blog-1
-  content: blog 1/content/index.html
-- title: blog 2
-  excerpt: Short intro or summary of the blog post.
+  - tag 1
+  - tag 2
+  related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+  related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+  related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
+- content_title: 234 sdf
+  slug: 234-sdf
+  content_type: blog
+  content_destination: blogs
+  content_subtype: ''
+  highlight: 'true'
+  status: draft
+  content_source: blogs/234-sdf/content/index.html
+  content_page: blogs/234-sdf/index.html
+  excerpt: ''
+  author: san-dra
+  created_timestamp: '2025-05-12 15:55:12'
+  created_date: '2025-05-12'
+  last_updated_timestamp: '2025-05-12 15:55:12'
+  last_updated_date: '2025-05-12'
+  content_id: blog2341747054513sandra
+  content_repo: ''
+  live_demo: ''
+  live_demo_text: Live Demo
+  thumbnail: blogs/234-sdf/images/thumbnail.png
+  hover_gif: blogs/234-sdf/images/thumbnail.gif
+  banner: blogs/234-sdf/images/banner.png
+  gallery:
+  - blogs/234-sdf/images/image_1.png
+  - blogs/234-sdf/images/image_2.png
+  - blogs/234-sdf/images/image_3.png
+  domain:
+  - domain 1
+  - domain 2
+  subdomain:
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
+  techstack:
+  - powerbi
+  - python
+  application_area:
+  - application area 1
+  - application area 2
   tags:
-  - tutorial
-  - data visualization
-  thumbnail: blog 2/images/thumbnail.png
-  hover_gif: blog 2/images/thumbnail.gif
-  slug: blog-2
-  content: blog 2/content/index.html
+  - tag 1
+  - tag 2
+  related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+  related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+  related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
+- content_title: blo 678
+  slug: blo-678
+  content_type: blog
+  content_destination: blogs
+  content_subtype: ''
+  highlight: 'true'
+  status: draft
+  content_source: blogs/blo-678/content/index.html
+  content_page: blogs/blo-678/index.html
+  excerpt: ''
+  author: san-dra
+  created_timestamp: '2025-05-12 15:45:12'
+  created_date: '2025-05-12'
+  last_updated_timestamp: '2025-05-12 15:45:12'
+  last_updated_date: '2025-05-12'
+  content_id: blogblo1747053912sandra
+  content_repo: ''
+  live_demo: ''
+  live_demo_text: Live Demo
+  thumbnail: blogs/blo-678/images/thumbnail.png
+  hover_gif: blogs/blo-678/images/thumbnail.gif
+  banner: blogs/blo-678/images/banner.png
+  gallery:
+  - blogs/blo-678/images/image_1.png
+  - blogs/blo-678/images/image_2.png
+  - blogs/blo-678/images/image_3.png
+  domain:
+  - domain 1
+  - domain 2
+  subdomain:
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
+  techstack:
+  - powerbi
+  - python
+  application_area:
+  - application area 1
+  - application area 2
+  tags:
+  - tag 1
+  - tag 2
+  related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+  related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+  related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
+resources: []
+knowledge_base: []

@@ -1,18 +1,26 @@
-title: ""
-slug: ""
-date: "" #automatic timestamp MM/DD/YYYY HH:MM:SS
+title: "blog 1"
+slug: "blog-1"
+subtitle: "" #user-defined subtitle of the blog post 
+author: "san-dra"
+create_timestamp: "2025-05-05 21:28:47"
+created_by: "san-dra"
+blog_id: "blog_1746469727_san-dra"
+blog_repo: "" # GitHub repo link (optional)
+last_update_timestamp: "2025-05-05 21:28:47"
+
+
 
 excerpt: "Short intro or summary of the blog post."
 thumbnail: "images/thumbnail.png"
 hover_gif: "images/thumbnail.gif" 
 banner: "images/banner.png"
 gallery: 
-  #- image: "images/gallery1.png"
-  #  caption: "Caption for gallery image 1"
-  #- image: "images/gallery2.png"
-  #  caption: "Caption for gallery image 2"
-  #- image: "images/gallery3.png"
-  #  caption: "Caption for gallery image 3"
+  - image: "images/image_1.png"
+    caption: "Caption for gallery image 1"
+  - image: "images/image_2.png"
+    caption: "Caption for gallery image 2"
+  - image: "images/image_3.png"
+    caption: "Caption for gallery image 3"
 
 blog_type:  # what type of blog is it? (e.g. tutorial, opinion, project, etc.)
   # - tutorial
@@ -23,8 +31,8 @@ blog_type:  # what type of blog is it? (e.g. tutorial, opinion, project, etc.)
   # - case study
   # - analysis
   
-content: "blog-folder-name/content/index.html"
-blog_page: "blog-folder-name/index.html"
+content: "blog 1/content/index.html"
+blog_page: "blog 1/index.html"
 
 tags:
    - add tags here
@@ -77,10 +85,9 @@ subdomain:
 
 
 # === TECH STACK ===
-techstack:
-# the techstack will link to an image in the assets folder with the same name as the techstack .svg.
-    - add techstack here
-  #  - Python
+techstack:  # the techstack will link to an image in the assets folder with the same name as the techstack .svg.
+     - powerbi
+     - python
   #  - R
   #  - SQL
   #  - Excel
@@ -126,13 +133,23 @@ application_area:
 
 # === Related Projects and Blog Posts ===
 # These are the projects and blog posts that are related to this blog post. 
-related_projects:
-  - "related-project-title-1"
-  - "related-project-title-2"
-
-related_blog_posts:
-  - "related-blog-title-1"
-  - "related-blog-title-2"
-related_resources:
-  - "related-resource-title-1"
-  - "related-resource-title-2"
+related_content:
+  content:
+    - type: project
+      title: "Project Title 1"
+      link: "projects/project_folder_name/index.html"
+    - type: project
+      title: "Project Title 2"
+      link: "projects/project_folder_name/index.html"
+    - type: blog
+      title: "Blog Title 1"
+      link: "blog/blog_folder_name/index.html"
+    - type: blog
+      title: "Blog Title 2"
+      link: "blog/blog_folder_name/index.html"
+    - type: resource
+      title: "Resource Title 1"
+      link: "resources/resource_folder_name/index.html"
+    - type: resource
+      title: "Resource Title 2"
+      link: "resources/resource_folder_name/index.html"

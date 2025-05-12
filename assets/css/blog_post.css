@@ -82,3 +82,80 @@
     src: url('../../assets/fonts/helvetica-neue/HelveticaNeue-Heavy.otf') format('opentype');
 
   }
+/* ===== blogs.css ===== */
+body, html {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden; /* Prevent global scroll */
+    font-family: "HelveticaNeue", sans-serif;
+  }
+
+
+
+.page-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px
+}
+
+.left-panel {
+    font-weight: bold;
+    background-color: blue; 
+    color: white;
+    padding: 0px;
+}
+.left-panel {
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+}
+
+.scrollable-content {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+.blog-body {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    overflow-y: auto; 
+    height: auto;
+
+}
+
+
+
+.tech-icons img {
+    height: 22px;
+    margin: 0 5px;
+  }
+  
+  .related-entry {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+  }
+  
+  .related-thumb {
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .related-title {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-color, #333);
+  }
+  
+  .related-meta {
+    font-size: 0.75rem;
+    color: #888;
+  }
+  
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title id="title">Loading Blog...</title>
+
+  <!-- 💡 Main stylesheet for blog post layout -->
+
+  <!--  Defines the style for the nlog page layout  -->
+  <link rel="stylesheet" href="../../assets/css/blog_post.css" />
+
+  <!--  Defines the style for content under blog-body  -->
+  <link rel="stylesheet" href ="quarto/styles.css" />
+
+
+
+
+  <!-- 💡 Script to load blog.json and content/index.html -->
+  <script src="../../assets/js/blog_post.js" defer></script>
+
+  <!--  Defines the script for common component definitions  -->
+  <script src="/assets/js/top_container.js" defer></script>
+  <!--  Defines the style for common component deinitions  -->
+  <link rel="stylesheet" href="/assets/css/top_container.css" />
+
+
+</head>
+
+<body>
+  <div id="top-container"></div>
+
+    
+
+
+     
+
+    <div class="page-layout">
+      <!-- 🔸 Left panel: Related Content -->
+      <aside class="left-panel"> 
+        <div id="blog-header" class="blog-header">
+          <h1 id="blog-title" class="blog-title"></h1>
+          <p id="blog-excerpt" class="blog-excerpt"></p>
+          <p id="blog-author" class="blog-author"></p>
+          <p id="blog-last-updated" class="blog-last-updated"></p>
+        </div>
+       </aside>     <!-- Fixed left (blue) -->
+      
+      <!-- 🔸 Main content: Blog body -->
+      <main class="scrollable-content">           <!-- Only this scrolls -->
+        <main id="blog-body" class="blog-body">
+          <⏳ Loading blog content...>
+        </main>
+      </main>
+      
+      <!-- 🔸 Right panel: Blog info -->
+      <aside class="right-panel"> 
+        <section id= "blog-info" class="blog-info">
+          <h3>Blog Domain</h3>
+          <div id="blog-domain"></div>
+          <h3>Blog Subdomain</h3>
+          <li id="blog-subdomain"></li>
+          <h3 >Application Area</h3>
+          <li id="blog-application_area"></li>
+                  
+          <h3>Techstack</h3>
+          <div id="blog-techstack-icons" class="tech-icons"></div>
+  
+        </section>
+        
+        <section class="related-content" id="related-content">
+          <h3>Related Content</h3>
+          <li id="related-blogs"></li>
+          <li id = "related-projects"></li>
+          <li id = "related-resources"></li>
+        </section>
+      </aside>    <!-- Fixed right (yellow) -->
+
+    </div>
+  </div>
+
+
+  <!-- 🔹 Footer -->
+  <!-- Footer content injected by stlye in main.css, items pulled from footer.js -->
+  <div id = "footer" class="footer"> </div>
+
+</body>
+</html>

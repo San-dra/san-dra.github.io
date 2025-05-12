@@ -3,7 +3,7 @@ project:
   output-dir: ../content
 
 website:
-  title: "Blog Title"
+  title: "Project Title"
   navbar: false
 
 format:
@@ -12,8 +12,7 @@ format:
     toc: false
     sidebar: false
     embed-resources: false
-    css:
-      - styles.css
-
-
     page-layout: full
+    css:
+      - ../assets/css/main.css
+      - styles.css

@@ -1,5 +1,12 @@
 /* ===== blogs.css ===== */
-
+head{
+  display: none;
+}
+body{
+  background-color: #e7e0d8;
+  margin: 0px;
+  padding: 0px;
+}
 .blogs-page {
   padding: 2rem;
   font-family: 'Fira Sans', sans-serif;

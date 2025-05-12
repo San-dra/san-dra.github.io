@@ -1,19 +1,14 @@
 /* Highlighted guide colors */
-.hero {
-    background-color: #fff7e6; /* soft yellow background */
-    padding: 2rem;
-    border-radius: 12px;
+
+  .blog-body {
+    font-weight: bold;
+    background-color: pink; /* orange to highlight placeholder sections */
   }
-  
-  h1, h2 {
-    color: #ff6600; /* orange to highlight placeholder sections */
+  .blog-body .img-fluid{
+    width: 20%;
+    height: 10%;
   }
-  
-  a {
-    color: #0066cc;
-  }
-  
-  body {
-    font-family: "Fira Sans", sans-serif;
+  .blog-body h1 {
+    color: green; /* orange to highlight placeholder sections */
   }
   

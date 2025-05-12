@@ -1,36 +1,66 @@
 ---
-title: "Project Title"
+title: "Blog Title"
+description: "One-line summary of what this blog article covers."
 date: "2025-05-01"
 format:
   html:
     toc: false
     css: styles.css
+    code-copy: true
+    code-overflow: scroll
 ---
 
-<div class="project-body">
+<div class="blog-body">
 
-## Introduction
+# Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis justo ac mauris pulvinar tincidunt.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.  
+Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
 
-## Problem Statement
+::: {.callout-note}
+This is a note block — useful for definitions, clarifications, or tips.
+:::
 
-Ut eleifend lectus sit amet metus tincidunt, nec dapibus orci posuere.
+# Getting Started
 
-## Methodology
+This article walks you through how to implement a solution using **Python** and **R**, with output samples, code comparisons, and tips for both.
 
-- Designed ETL pipeline
-- Connected data sources
-- Visualized outputs
+## Python Code Example
 
-## Key Outcomes
+```python
+import pandas as pd
 
-1. Improved latency
-2. Reduced manual effort
-3. Delivered real-time KPIs
+df = pd.DataFrame({
+    "name": ["Alice", "Bob", "Charlie"],
+    "score": [85, 90, 78]
+})
 
-## Conclusion
+df["grade"] = pd.cut(df["score"], bins=[0, 80, 90, 100], labels=["C", "B", "A"])
+df
+```
 
-This project demonstrated how end-to-end pipeline design supports real-time analytics in retail.
+
+## R Code Example
+
+```r
+library(dplyr)
+
+df <- data.frame(
+  name = c("Alice", "Bob", "Charlie"),
+  score = c(85, 90, 78)
+)
+
+df <- df %>%
+  mutate(grade = cut(score, breaks = c(0, 80, 90, 100), labels = c("C", "B", "A")))
+
+print(df)
+
+```
+
+# Visual Example
+
+Here’s a snapshot of the chart used in this blog:
+
+![Grade Distribution](images/image_1.png)
 
 </div>

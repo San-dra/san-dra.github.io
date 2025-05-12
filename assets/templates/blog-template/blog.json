@@ -1,0 +1,85 @@
+{
+  "title": "blog 1",
+  "slug": "blog-1",
+  "subtitle": "",
+  "author": "san-dra",
+  "create_timestamp": "2025-05-05 21:28:47",
+  "created_by": "san-dra",
+  "blog_id": "blog_1746469727_san-dra",
+  "blog_repo": "",
+  "last_update_timestamp": "2025-05-05 21:28:47",
+  "excerpt": "Short intro or summary of the blog post.",
+  "thumbnail": "images/thumbnail.png",
+  "hover_gif": "images/thumbnail.gif",
+  "banner": "images/banner.png",
+  "gallery": [
+    {
+      "image": "images/image_1.png",
+      "caption": "Caption for gallery image 1"
+    },
+    {
+      "image": "images/image_2.png",
+      "caption": "Caption for gallery image 2"
+    },
+    {
+      "image": "images/image_3.png",
+      "caption": "Caption for gallery image 3"
+    }
+  ],
+  "blog_type": null,
+  "content": "blog 1/content/index.html",
+  "blog_page": "blog 1/index.html",
+  "tags": [
+    "add tags here"
+  ],
+  "domain": [
+    "add domain here"
+  ],
+  "subdomain": [
+    {
+      "selected domain": [
+        "selected subdomain"
+      ]
+    }
+  ],
+  "techstack": [
+    "python"
+  ],
+  "application_area": [
+     "application area here"
+  ],
+  "related_content": {
+    "content": [
+      {
+        "type": "project",
+        "title": "Project Title 1",
+        "link": "projects/project_m/index.html"
+      },
+      {
+        "type": "project",
+        "title": "Digital Marketing Performance Dashboard",
+        "link": "projects/Digital Marketing Performance Dashboard/index.html"
+      },
+      {
+        "type": "blog",
+        "title": "Disbursement and Usage Insights Dashboard MobiFund",
+        "link": "blog/blog 1/index.html"
+      },
+      {
+        "type": "blog",
+        "title": "Blog Title 2",
+        "link": "blog/blog 2/index.html"
+      },
+      {
+        "type": "resource",
+        "title": "Resource Title 1",
+        "link": "resources/resource_folder-name/index.html"
+      },
+      {
+        "type": "resource",
+        "title": "Resource Title 2",
+        "link": "resources/resource_folder-name/index.html"
+      }
+    ]
+  }
+}
