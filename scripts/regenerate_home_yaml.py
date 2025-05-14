@@ -26,7 +26,7 @@ def parse_date(date_str):
     except:
         return datetime.min
 
-latest_blogs = sorted(blogs, key=lambda b: parse_date(b.get("date", "")), reverse=True)[:3]
+latest_blogs = sorted(blogs, key=lambda b: parse_date(b.get("date", "")), reverse=True)[:6]
 
 # Filter highlighted projects
 highlighted_resources = [r for r in resources if r.get("highlight") == "True"]

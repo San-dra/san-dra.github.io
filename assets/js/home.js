@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     Promise.all([
       fetch("home.yaml").then(r => r.text()),
-      fetch("home_meta.yaml").then(r => r.text())
+      fetch("private/general.yaml").then(r => r.text())
     ])
     .then(([homeYaml, metaYaml]) => {
       const home = jsyaml.load(homeYaml);

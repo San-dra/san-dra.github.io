@@ -1,0 +1,28 @@
+{
+    "main_navigation": [
+        {
+            "text": "Home",
+            "href": "index.html"
+        },
+        {
+            "text": "Resume",
+            "href": "/resume/index.html"
+        },
+        {
+            "text": "Projects",
+            "href": "/projects/index.html"
+        },
+        {
+            "text": "Blogs",
+            "href": "/blogs/index.html"
+        },
+        {
+            "text": "Resources",
+            "href": "/resources/index.html"
+        },
+        {
+            "text": "Documentation",
+            "href": "/knowledge_base/index.html"
+        }
+    ]
+}

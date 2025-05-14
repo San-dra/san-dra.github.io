@@ -151,6 +151,81 @@
       ]
     },
     {
+      "content_title": "project 4",
+      "slug": "project-4",
+      "content_type": "project",
+      "content_destination": "projects",
+      "content_subtype": "",
+      "highlight": "true",
+      "status": "draft",
+      "content_source": "projects/project-4/content/index.html",
+      "content_page": "projects/project-4/index.html",
+      "excerpt": "",
+      "author": "",
+      "created_timestamp": "2025-05-14 19:58:41",
+      "created_date": "2025-05-14",
+      "last_updated_timestamp": "2025-05-14 19:58:41",
+      "last_updated_date": "2025-05-14",
+      "content_id": "projectpro1747241921",
+      "content_repo": "",
+      "live_demo": "",
+      "live_demo_text": "Live Demo",
+      "thumbnail": "projects/project-4/images/thumbnail.png",
+      "hover_gif": "projects/project-4/images/thumbnail.gif",
+      "banner": "projects/project-4/images/banner.png",
+      "gallery": [
+        "projects/project-4/images/image_1.png",
+        "projects/project-4/images/image_2.png",
+        "projects/project-4/images/image_3.png"
+      ],
+      "domain": [
+        "domain 1",
+        "domain 2"
+      ],
+      "subdomain": [
+        {
+          "domain 1": [
+            "subdomain 1",
+            "subdomain 2"
+          ]
+        },
+        {
+          "domain 2": [
+            "subdomain 1",
+            "subdomain 2"
+          ]
+        }
+      ],
+      "techstack": [
+        "powerbi",
+        "python"
+      ],
+      "application_area": [
+        "application area 1",
+        "application area 2"
+      ],
+      "tags": [
+        "tag 1",
+        "tag 2"
+      ],
+      "related_projects": [
+        "projects/project_folder_name",
+        "projects/project_folder_name"
+      ],
+      "related_blog_posts": [
+        "blog/blog_folder_name",
+        "blog/blog_folder_name"
+      ],
+      "related_resources": [
+        "resources/resource_folder_name",
+        "resources/resource_folder_name"
+      ],
+      "techstack_icons": [
+        "/assets/images/powerbi.svg",
+        "/assets/images/python.svg"
+      ]
+    },
+    {
       "content_title": "project gh",
       "slug": "project-gh",
       "content_type": "project",
@@ -228,32 +303,32 @@
   ],
   "blogs": [
     {
-      "content_title": "1frg",
-      "slug": "1frg",
+      "content_title": "blog 1",
+      "slug": "blog-1",
       "content_type": "blog",
       "content_destination": "blogs",
       "content_subtype": "",
       "highlight": "true",
       "status": "draft",
-      "content_source": "blogs/1frg/content/index.html",
-      "content_page": "blogs/1frg/index.html",
+      "content_source": "blogs/blog-1/content/index.html",
+      "content_page": "blogs/blog-1/index.html",
       "excerpt": "",
       "author": "san-dra",
-      "created_timestamp": "2025-05-12 17:34:14",
+      "created_timestamp": "2025-05-12 20:00:13",
       "created_date": "2025-05-12",
-      "last_updated_timestamp": "2025-05-12 17:34:14",
+      "last_updated_timestamp": "2025-05-12 20:00:13",
       "last_updated_date": "2025-05-12",
-      "content_id": "blog1fr1747060454sandra",
+      "content_id": "blogblo1747069213sandra",
       "content_repo": "",
       "live_demo": "",
       "live_demo_text": "Live Demo",
-      "thumbnail": "blogs/1frg/images/thumbnail.png",
-      "hover_gif": "blogs/1frg/images/thumbnail.gif",
-      "banner": "blogs/1frg/images/banner.png",
+      "thumbnail": "blogs/blog-1/images/thumbnail.png",
+      "hover_gif": "blogs/blog-1/images/thumbnail.gif",
+      "banner": "blogs/blog-1/images/banner.png",
       "gallery": [
-        "blogs/1frg/images/image_1.png",
-        "blogs/1frg/images/image_2.png",
-        "blogs/1frg/images/image_3.png"
+        "blogs/blog-1/images/image_1.png",
+        "blogs/blog-1/images/image_2.png",
+        "blogs/blog-1/images/image_3.png"
       ],
       "domain": [
         "domain 1",
@@ -303,32 +378,32 @@
       ]
     },
     {
-      "content_title": "234 sdf",
-      "slug": "234-sdf",
+      "content_title": "blog 2",
+      "slug": "blog-2",
       "content_type": "blog",
       "content_destination": "blogs",
       "content_subtype": "",
       "highlight": "true",
       "status": "draft",
-      "content_source": "blogs/234-sdf/content/index.html",
-      "content_page": "blogs/234-sdf/index.html",
+      "content_source": "blogs/blog-2/content/index.html",
+      "content_page": "blogs/blog-2/index.html",
       "excerpt": "",
-      "author": "san-dra",
-      "created_timestamp": "2025-05-12 15:55:12",
-      "created_date": "2025-05-12",
-      "last_updated_timestamp": "2025-05-12 15:55:12",
-      "last_updated_date": "2025-05-12",
-      "content_id": "blog2341747054513sandra",
+      "author": "",
+      "created_timestamp": "2025-05-13 22:40:22",
+      "created_date": "2025-05-13",
+      "last_updated_timestamp": "2025-05-13 22:40:22",
+      "last_updated_date": "2025-05-13",
+      "content_id": "blogblo1747165222",
       "content_repo": "",
       "live_demo": "",
       "live_demo_text": "Live Demo",
-      "thumbnail": "blogs/234-sdf/images/thumbnail.png",
-      "hover_gif": "blogs/234-sdf/images/thumbnail.gif",
-      "banner": "blogs/234-sdf/images/banner.png",
+      "thumbnail": "blogs/blog-2/images/thumbnail.png",
+      "hover_gif": "blogs/blog-2/images/thumbnail.gif",
+      "banner": "blogs/blog-2/images/banner.png",
       "gallery": [
-        "blogs/234-sdf/images/image_1.png",
-        "blogs/234-sdf/images/image_2.png",
-        "blogs/234-sdf/images/image_3.png"
+        "blogs/blog-2/images/image_1.png",
+        "blogs/blog-2/images/image_2.png",
+        "blogs/blog-2/images/image_3.png"
       ],
       "domain": [
         "domain 1",
@@ -378,32 +453,107 @@
       ]
     },
     {
-      "content_title": "blo 678",
-      "slug": "blo-678",
+      "content_title": "blog 3",
+      "slug": "blog-3",
       "content_type": "blog",
       "content_destination": "blogs",
       "content_subtype": "",
       "highlight": "true",
       "status": "draft",
-      "content_source": "blogs/blo-678/content/index.html",
-      "content_page": "blogs/blo-678/index.html",
+      "content_source": "blogs/blog-3/content/index.html",
+      "content_page": "blogs/blog-3/index.html",
       "excerpt": "",
-      "author": "san-dra",
-      "created_timestamp": "2025-05-12 15:45:12",
-      "created_date": "2025-05-12",
-      "last_updated_timestamp": "2025-05-12 15:45:12",
-      "last_updated_date": "2025-05-12",
-      "content_id": "blogblo1747053912sandra",
+      "author": "",
+      "created_timestamp": "2025-05-14 01:25:56",
+      "created_date": "2025-05-14",
+      "last_updated_timestamp": "2025-05-14 01:25:56",
+      "last_updated_date": "2025-05-14",
+      "content_id": "blogblo1747175156",
       "content_repo": "",
       "live_demo": "",
       "live_demo_text": "Live Demo",
-      "thumbnail": "blogs/blo-678/images/thumbnail.png",
-      "hover_gif": "blogs/blo-678/images/thumbnail.gif",
-      "banner": "blogs/blo-678/images/banner.png",
+      "thumbnail": "blogs/blog-3/images/thumbnail.png",
+      "hover_gif": "blogs/blog-3/images/thumbnail.gif",
+      "banner": "blogs/blog-3/images/banner.png",
       "gallery": [
-        "blogs/blo-678/images/image_1.png",
-        "blogs/blo-678/images/image_2.png",
-        "blogs/blo-678/images/image_3.png"
+        "blogs/blog-3/images/image_1.png",
+        "blogs/blog-3/images/image_2.png",
+        "blogs/blog-3/images/image_3.png"
+      ],
+      "domain": [
+        "domain 1",
+        "domain 2"
+      ],
+      "subdomain": [
+        {
+          "domain 1": [
+            "subdomain 1",
+            "subdomain 2"
+          ]
+        },
+        {
+          "domain 2": [
+            "subdomain 1",
+            "subdomain 2"
+          ]
+        }
+      ],
+      "techstack": [
+        "powerbi",
+        "python"
+      ],
+      "application_area": [
+        "application area 1",
+        "application area 2"
+      ],
+      "tags": [
+        "tag 1",
+        "tag 2"
+      ],
+      "related_projects": [
+        "projects/project_folder_name",
+        "projects/project_folder_name"
+      ],
+      "related_blog_posts": [
+        "blog/blog_folder_name",
+        "blog/blog_folder_name"
+      ],
+      "related_resources": [
+        "resources/resource_folder_name",
+        "resources/resource_folder_name"
+      ],
+      "techstack_icons": [
+        "/assets/images/powerbi.svg",
+        "/assets/images/python.svg"
+      ]
+    },
+    {
+      "content_title": "blog 4",
+      "slug": "blog-4",
+      "content_type": "blog",
+      "content_destination": "blogs",
+      "content_subtype": "",
+      "highlight": "true",
+      "status": "draft",
+      "content_source": "blogs/blog-4/content/index.html",
+      "content_page": "blogs/blog-4/index.html",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "author": "",
+      "created_timestamp": "2025-05-14 17:32:56",
+      "created_date": "2025-05-14",
+      "last_updated_timestamp": "2025-05-14 17:32:56",
+      "last_updated_date": "2025-05-14",
+      "content_id": "blogblo1747233176",
+      "content_repo": "",
+      "live_demo": "",
+      "live_demo_text": "Live Demo",
+      "thumbnail": "blogs/blog-4/images/thumbnail.png",
+      "hover_gif": "blogs/blog-4/images/thumbnail.gif",
+      "banner": "blogs/blog-4/images/banner.png",
+      "gallery": [
+        "blogs/blog-4/images/image_1.png",
+        "blogs/blog-4/images/image_2.png",
+        "blogs/blog-4/images/image_3.png"
       ],
       "domain": [
         "domain 1",

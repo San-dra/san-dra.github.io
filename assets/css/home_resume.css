@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 40px;
+}
+.welcome_message h1{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: medium;
+}

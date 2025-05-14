@@ -1,92 +1,123 @@
 /* ===== home.css ===== */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
 body {
-    font-family: 'Fira Sans', sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    /*margin based on display size*/
+    padding: 0 0 0 0;
+    padding: 32px 48px 48px;
     background-color: #fafafa;
     color: #222;
+    height: 100%;
+    border-bottom-width: 1px;
+    border-color:  #191919;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    background-color: #fffcf5;
+
   }
+
+.grid-container {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
   
-  header.hero {
-    padding: 3rem 2rem;
-    text-align: center;
-    background: linear-gradient(135deg, #e0e0ff, #ffffff);
-    border-bottom: 1px solid #ddd;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: pink;
+}
+
+/* Make columns stack on smaller screens */
+@media (max-width: 1080px) {
+  .row {
+    display: flex;
+    flex-direction: column !important;
   }
-  
-  .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .hero p {
-    font-size: 1.1rem;
-    color: #555;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  section {
-    padding: 2rem;
-    margin-bottom: 2rem;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
-  }
-  
-  section h2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
-  
-  .card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  }
-  
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  .card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
-  }
-  
-  .card h3 {
-    font-size: 1.2rem;
-    padding: 0.75rem 1rem 0.25rem;
-  }
-  
-  .card p {
-    font-size: 0.95rem;
-    padding: 0 1rem 1rem;
-    color: #555;
-  }
-  
-  footer {
-    padding: 1rem;
-    text-align: center;
-    font-size: 0.85rem;
-    color: #777;
-    background: #f9f9f9;
-    border-top: 1px solid #eee;
-  }
-  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resume-section {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fffcf5;
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fffcf5;
+}
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 20px;
+    background-color:#fffcf5 ;}
+
+.resource-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: lightsalmon;}
+
+
+.section-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pkb-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: pink;}

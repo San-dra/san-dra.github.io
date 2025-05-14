@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: ../content
+
+website:
+  title: "Blog Title"
+  navbar: false
+
+format:
+  html:
+    theme: none
+    toc: false
+    sidebar: false
+    embed-resources: false
+    css:
+      - styles.css
+
+
+    page-layout: full

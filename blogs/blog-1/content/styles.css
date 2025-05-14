@@ -1,0 +1,14 @@
+/* Highlighted guide colors */
+
+  .blog-body {
+    font-weight: bold;
+    background-color: pink; /* orange to highlight placeholder sections */
+  }
+  .blog-body .img-fluid{
+    width: 20%;
+    height: 10%;
+  }
+  .blog-body h1 {
+    color: green; /* orange to highlight placeholder sections */
+  }
+  

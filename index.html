@@ -1,42 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sandra's Portfolio</title>
-      
-        <!-- 🔽 Add this line before your script -->
-        <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-      
-        <link rel="stylesheet" href="assets/css/home.css">
-        <script src="assets/js/home.js" defer></script>
-      </head>
-      
+<head>
+  <meta charset="UTF-8" />
+  <title id="title">Loading Blog...</title>
+
+  <!-- 💡 Main stylesheet for home page -->
+
+  <!-- 💡 Script to load blog.json and content/index.html -->
+  <script src="/assets/js/home.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css" />
+
+  <script src="/assets/js/home_resume.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home_resume.css" />
+  <script src="/assets/js/home_projects.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home_projects.css" />
+  <script src="/assets/js/home_blogs.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home_blogs.css" />
+
+
+  <!--  Defines the script for common component definitions  -->
+  <script src="/assets/js/top_container.js" defer></script>
+  <script src="/assets/js/footer.js" defer></script>
+  
+  <!--  Defines the style for common component deinitions  -->
+  <link rel="stylesheet" href="/assets/css/top_container.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+
+
+</head>
+
 <body>
-  <header class="hero" id="hero">
-    <!-- Hero content from home_meta.yaml will be injected here -->
-  </header>
+  <div id="top-container"></div>
 
-  <main>
-    <section id="projects">
-      <h2>Highlighted Projects</h2>
-      <div class="card-grid" id="project-cards">
-        <!-- Highlighted projects will be injected here from home.yaml -->
-      </div>
-    </section>
+  <main id="main-content" class = "grid-container">
+    
 
-    <section id="blogs">
-      <h2>Latest Blog Posts</h2>
-      <div class="card-grid" id="blog-cards">
-        <!-- Latest blogs will be injected here from home.yaml -->
+    <!-- First column of the page containing resume, projects and blogs -->
+    <div class="row row-1">
+
+    <div class="column column-1"><!-- 💡 Top row of the page -->
+      <!-- 💡 TResume Section -->
+      <div id="resume-section" class="resume-section">
+        <div id = "section-head" class = "section-head">
+          <img id="profile-image" class="profile-image" src="/private/images/profile.jpg"></img>
+        </div> 
+        <div id="resume-section-container" class="resume-section-container"> </div>
       </div>
-    </section>
+
+      <div id = "project-section" class="project-section">
+        <div id = "section-head" class = "section-head">
+          <h1>Highlighted</h1>
+          <button>View all projects</button> </div>
+
+        <div id="project-section-container" class="project-section-container"></div>
+      </div>
+    </div>
+
+          <!-- 💡 Blog Section -->
+      <div id="blog-section" class="blog-section">
+        <div id = "section-head" class = "section-head">
+          <h1>Latest Blog Posts</h1>
+          <button>View all posts</button> </div>
+
+        <div id="blog-section-container" class="blog-section-container"></div>
+      </div>
+      
+
+    </div>
+
+    <!-- Second column of the page containing resources and knowledge base -->
+
+    <div class="row row-2">
+
+      <div id="resources-section" class="resources-section">
+        <div id = "section-head" class = "section-head">
+          <h1>Resources</h1>
+          <button>View all resources</button> </div>
+
+          <div id="resources-section-container" class="resources-section-container"></div>
+
+
+        <div id="pkb-section" class="pkb-section">
+          <div id = "section-head" class = "section-head">
+            <h1>Knowledge Base</h1>
+            <button>View all articles</button> </div>
+
+            <div id="pkb-section-container" class="pkb-section-container"></div>
+        </div>
+      </div>  
+
+    
+
+
+
+  
   </main>
 
-  <footer>
-    <div id="footer-contact">
-      <!-- Contact info from home_meta.yaml will be injected here -->
-    </div>
-  </footer>
+
+  <!-- 🔹 Footer -->
+  <!-- Footer content injected by stlye in main.css, items pulled from footer.js -->
+  <div id = "footer" class="footer"> 
+    <p>© 2023 </p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur maxime, rem rerum atque in obcaecati ratione, commodi esse eveniet optio distinctio, architecto impedit aliquid nihil sed sunt delectus necessitatibus!</p>
+  </div>
+
 </body>
 </html>

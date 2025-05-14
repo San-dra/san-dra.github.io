@@ -1,0 +1,36 @@
+---
+title: "Project Title"
+date: "2025-05-01"
+format:
+  html:
+    toc: false
+    css: styles.css
+---
+
+<div class="project-body">
+
+## Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis justo ac mauris pulvinar tincidunt.
+
+## Problem Statement
+
+Ut eleifend lectus sit amet metus tincidunt, nec dapibus orci posuere.
+
+## Methodology
+
+- Designed ETL pipeline
+- Connected data sources
+- Visualized outputs
+
+## Key Outcomes
+
+1. Improved latency
+2. Reduced manual effort
+3. Delivered real-time KPIs
+
+## Conclusion
+
+This project demonstrated how end-to-end pipeline design supports real-time analytics in retail.
+
+</div>

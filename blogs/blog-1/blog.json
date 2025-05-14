@@ -1,0 +1,75 @@
+{
+    "content_title": "blog 1",
+    "slug": "blog-1",
+    "content_type": "blog",
+    "content_destination": "blogs",
+    "content_subtype": "",
+    "highlight": "true",
+    "status": "draft",
+    "content_source": "blogs/blog-1/content/index.html",
+    "content_page": "blogs/blog-1/index.html",
+    "excerpt": "",
+    "author": "san-dra",
+    "created_timestamp": "2025-05-12 20:00:13",
+    "created_date": "2025-05-12",
+    "last_updated_timestamp": "2025-05-12 20:00:13",
+    "last_updated_date": "2025-05-12",
+    "content_id": "blogblo1747069213sandra",
+    "content_repo": "",
+    "live_demo": "",
+    "live_demo_text": "Live Demo",
+    "thumbnail": "blogs/blog-1/images/thumbnail.png",
+    "hover_gif": "blogs/blog-1/images/thumbnail.gif",
+    "banner": "blogs/blog-1/images/banner.png",
+    "gallery": [
+        "blogs/blog-1/images/image_1.png",
+        "blogs/blog-1/images/image_2.png",
+        "blogs/blog-1/images/image_3.png"
+    ],
+    "domain": [
+        "domain 1",
+        "domain 2"
+    ],
+    "subdomain": [
+        {
+            "domain 1": [
+                "subdomain 1",
+                "subdomain 2"
+            ]
+        },
+        {
+            "domain 2": [
+                "subdomain 1",
+                "subdomain 2"
+            ]
+        }
+    ],
+    "techstack": [
+        "powerbi",
+        "python"
+    ],
+    "application_area": [
+        "application area 1",
+        "application area 2"
+    ],
+    "tags": [
+        "tag 1",
+        "tag 2"
+    ],
+    "related_projects": [
+        "projects/project_folder_name",
+        "projects/project_folder_name"
+    ],
+    "related_blog_posts": [
+        "blog/blog_folder_name",
+        "blog/blog_folder_name"
+    ],
+    "related_resources": [
+        "resources/resource_folder_name",
+        "resources/resource_folder_name"
+    ],
+    "techstack_icons": [
+        "/assets/images/powerbi.svg",
+        "/assets/images/python.svg"
+    ]
+}

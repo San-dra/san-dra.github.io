@@ -47,7 +47,7 @@ elif sys.argv[1] == "resource":
 elif sys.argv[1] == "knowledge_base":
     content_roots = {key: value for key, value in content_roots.items() if key == 'knowledge_base'}
 elif sys.argv[1] == "update":
-    content_roots = content_roots.items()
+    content_roots = {key: value for key, value in content_roots.items() }
 else:
     print("❌ Unknown content type. Use one of: [1 = blog, 2 = project, 3 = resource, 4 = knowledge_base (unit)]")
     sys.exit(1)

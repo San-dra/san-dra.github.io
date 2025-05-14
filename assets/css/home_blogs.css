@@ -1,0 +1,118 @@
+.blog-section-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 560px;
+  margin: 1rem;
+  max-height: 100px;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Thumbnail */
+.thumbnail-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.blog-thumbnail,
+.blog-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-hover {
+  opacity: 0;
+}
+
+.thumbnail-wrapper:hover .blog-hover {
+  opacity: 1;
+}
+
+/* Text Content */
+.blog-card h3.blog-title {
+  font-size: 1.25rem;
+  margin: 1rem 1rem 0.5rem;
+  color: #222;
+  font-weight: 600;
+}
+
+.blog-card h3.blog-excerpt {
+  font-size: 1rem;
+  margin: 0 1rem 1rem;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Metadata (Domain, Subdomain, App Area) */
+.blog-card p {
+  font-size: 0.9rem;
+  margin: 0.25rem 1rem;
+  color: #444;
+}
+
+.blog-card p strong {
+  color: #222;
+}
+
+/* Techstack Icons */
+.blog-techicons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  gap: 0.5rem;
+}
+
+.blog-techicons img.tech-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: transform 0.2s ease;
+}
+
+.blog-techicons img.tech-icon:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+/* Link */
+.blog-page-link {
+  display: block;
+  text-align: right;
+  margin: 1rem;
+  font-weight: 500;
+  color: #0057b8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.blog-page-link:hover {
+  color: #003a80;
+}

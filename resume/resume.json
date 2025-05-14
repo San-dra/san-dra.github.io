@@ -1,0 +1,213 @@
+{
+    "title": "Resume",
+    "professional_title": "Data Scientist | Data Engineering & Visualization Specialist",
+    "welcome_message": "Welcome to my resume website!",
+    "professional_summary": "A highly motivated and results-driven data scientist with a strong background in data analysis, machine learning, and data engineering. Proven ability to leverage data to drive business insights and improve decision-making. Seeking to contribute my skills and expertise to a dynamic team.",
+    "education": [
+        {
+            "title": "MSc. in Business Analytics and Big Data",
+            "institution": "IE School of Technology and Human Science (IE HST)",
+            "institution_url": "https://www.ie.edu/school-science-technology/the-school/",
+            "start_date": "09/01/2019",
+            "end_date": "07/01/2020",
+            "description": "Kistefos Young Talented Leaders Scholar",
+            "location": "Madrid, Spain"
+        },
+        {
+            "title": "Bachelor of Arts, Economics",
+            "institution": "Addis Ababa University (Faculty of Business and Economics)",
+            "institution_url": "https://www.aau.edu.et/",
+            "start_date": "09/01/2021",
+            "end_date": "09/01/2014",
+            "location": "Addis Ababa, Ethiopia"
+        }
+    ],
+    "work_experience": [
+        {
+            "title": "Data Visualization Specialis",
+            "company": "IDInsight",
+            "company_url": "https://www.idinsight.org/",
+            "start_date": "04/01/2022",
+            "end_date": "07/14/2024",
+            "job_description": [
+                "Engineered and deployed scalable, database-driven dashboards for org-wide monitoring using tools like Power BI, R Shiny, Apache superset, Looker Studio.",
+                "Collaborated closely with data engineering and data science teams to design ETL pipelines and develop robust, reusable database models supporting real-time insights.",
+                "Created standardized user requirement templates and streamlined the process of translating client needs into actionable, regionally tailored visual analytics.",
+                "Authored end-to-end technical documentation and developed training resources,significantly improving adoption, self-sufficiency, and long-term sustainability of deployed data products.",
+                "Worked with stakeholders in the development sector to co-create decision-making tools that increased visibility into key performance metrics and improved programmatic impact."
+            ],
+            "location": "Nairobi, Kenya"
+        },
+        {
+            "title": "Data Scientist",
+            "company": "Oliva Advisory GmbH",
+            "company_url": "https://www.idinsight.org/",
+            "start_date": "12/01/2020",
+            "end_date": "04/01/2022",
+            "job_description": [
+                "Developed interactive and customized data visualizations that convey business critical insights, leveraging advanced tools like Tableau, and Power BI to address the unique challenges of global private sector clients",
+                "Architect and implement robust ETL pipelines to automate and scale data integration processes, enabling seamless access to clean and organized datasets for analytics and reporting.",
+                "Collaborate with stakeholders to understand industry-specific challenges, delivering data-driven solutions that align with their business strategies and add measurablevalue."
+            ],
+            "location": "Remote"
+        },
+        {
+            "title": "Data Scientist",
+            "company": "Dalberg (Dalberg Data Insights)",
+            "company_url": "https://dalberg.com/",
+            "start_date": "08/01/2020",
+            "end_date": "12/01/2020",
+            "job_description": [
+                "Developed automated data pipelines to integrate large datasets and extract near realtime insights for end users",
+                "Created and deployed custom data models and algorithms for predictive analysis, tailored to client datasets.",
+                "Designed and built automated data collection tools and customized visualization/reporting tools to evaluate data quality and present insights from large datasets."
+            ],
+            "location": "Addis Ababa, Ethiopia"
+        },
+        {
+            "title": "Monitoring, Evaluation and Learning (MEL) Officer",
+            "company": "British Council",
+            "company_url": "https://www.britishcouncil.org/",
+            "start_date": "04/01/2019",
+            "end_date": "07/01/2019",
+            "job_description": [
+                "Analyzed program KPIs and disaggregated performance metrics to ensure data accuracy, credibility, and timeliness in alignment with DFID and British Council reporting standards",
+                "Provided technical support to regional hubs and implementing partners in designing and operationalizing M&E systems and data collection tools for program monitoring and evaluation",
+                "Facilitated capacity building in results-based monitoring, enabling local partners to use data for adaptive learning and evidence-based decision-making."
+            ],
+            "location": "Addis Ababa, Ethiopia"
+        },
+        {
+            "title": "Information Management and Mobile Monitoring Officer",
+            "company": "DCA (Danish Church Aid)",
+            "company_url": "https://www.danchurchaid.org/",
+            "start_date": "05/01/2016",
+            "end_date": "03/01/2019",
+            "job_description": [
+                "Spearheaded e-voucher project design and implementation, overseeing monitoring and evaluation across four regions.",
+                "Improved processes and data quality by developing guidelines, workflows, and impactful dashboards for decision-making.",
+                "Delivered training programs and technical oversight, equipping teams with tools for data collection, monitoring, and proposal development",
+                "Fostered collaboration with local partners, enhancing their capacity in data collection and analysis for effective project implementation."
+            ],
+            "location": "Addis Ababa, Ethiopia"
+        },
+        {
+            "title": "Database Management Officer",
+            "company": "DCA (Danish Church Aid)",
+            "company_url": "https://www.danchurchaid.org/",
+            "start_date": "07/01/2015",
+            "end_date": "04/01/2016",
+            "job_description": [
+                "Designed and implemented data collection tools and systems for the ERCS, ensuring accurate and timely data capture.",
+                "Conducted data analysis and visualization to support decision-making processes within the organization.",
+                "Collaborated with cross-functional teams to develop and implement data-driven strategies for program improvement."
+            ],
+            "location": "Gambella, Ethiopia"
+        }
+    ],
+    "self_learning": [
+        {
+            "title": "Data Science and Machine Learning Bootcamp",
+            "image": "https://sandra-alemayehu.github.io/assets/images/bootcamp.jpg",
+            "institution": "Udemy",
+            "start_date": "01/01/2023",
+            "end_date": "04/01/2023",
+            "description": "Completed a comprehensive bootcamp on data science and machine learning.",
+            "credential_url": "Remote"
+        },
+        {
+            "title": "Data Engineering with Python",
+            "image": "https://sandra-alemayehu.github.io/assets/images/bootcamp.jpg",
+            "institution": "Coursera",
+            "start_date": "01/01/2023",
+            "end_date": "04/01/2023",
+            "description": "Completed a specialization on data engineering with Python.",
+            "credential_url": "Remote"
+        },
+        {
+            "title": "Data Visualization with Tableau",
+            "image": "https://sandra-alemayehu.github.io/assets/images/bootcamp.jpg",
+            "institution": "Coursera",
+            "start_date": "01/01/2023",
+            "end_date": "04/01/2023",
+            "description": "Completed a specialization on data visualization with Tableau.",
+            "credential_url": "Remote"
+        }
+    ],
+    "technical_skills": [
+        {
+            "title": "Data Analysis Tools",
+            "skills": [
+                "Excel",
+                "R",
+                "Python",
+                "SQL"
+            ]
+        },
+        {
+            "title": "Programming Languages",
+            "skills": [
+                "Python",
+                "R",
+                "SQL",
+                "JavaScript",
+                "Scripting Languages (Bash, PowerShell)"
+            ]
+        },
+        {
+            "title": "Data Visualization Tools",
+            "skills": [
+                "Power BI",
+                "Tableau",
+                "Looker Studio",
+                "Apache Superset",
+                "R (ggplot2, Shiny, flexdashboard, plotly)",
+                "D3.js",
+                "Python (Dash, Streamlit)"
+            ]
+        },
+        {
+            "title": "Data Engineering Tools",
+            "skills": [
+                "Apache Kafka",
+                "Apache Airflow",
+                "Apache Spark",
+                "Snowflake",
+                "Amazon Redshift",
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB"
+            ]
+        },
+        {
+            "title": "Machine Learning Libraries",
+            "skills": [
+                "Scikit-learn",
+                "TensorFlow",
+                "Keras"
+            ]
+        }
+    ],
+    "Languages": [
+        {
+            "title": "English",
+            "proficiency": "Fluent"
+        },
+        {
+            "title": "Amharic",
+            "proficiency": "Native"
+        },
+        {
+            "title": "Spanish",
+            "proficiency": "Intermediate"
+        },
+        {
+            "title": "Ukrainian",
+            "proficiency": "Basic"
+        },
+        {
+            "title": "Russian",
+            "proficiency": "Basic"
+        }
+    ]
+}

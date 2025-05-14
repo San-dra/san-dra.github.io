@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: ../content
+
+website:
+  title: "Project Title"
+  navbar: false
+
+format:
+  html:
+    theme: none
+    toc: false
+    sidebar: false
+    embed-resources: false
+    page-layout: full
+    css:
+      - ../assets/css/main.css
+      - styles.css

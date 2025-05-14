@@ -1,0 +1,15 @@
+main_navigation:
+  - text: Home
+    href: index.html
+  - text: Resume
+    href: /resume/index.html
+  - text: Services
+    href: /resume/index.html
+  - text: Projects
+    href: /projects/index.html
+  - text: Blogs
+    href: /blogs/index.html
+  - text: Resources #available external links
+    href: /resources/index.html
+  - text: Documentation #available external links, like youtube video, github repo, etc.
+    href: /knowledge_base/index.html

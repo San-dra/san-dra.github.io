@@ -6,7 +6,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   Promise.all([
     fetch("/private/general.json").then(res => res.json()),
-    fetch("/assets/template/home_meta.json").then(res => res.json())
+    fetch("/assets/home_meta.json").then(res => res.json())
   ])
   .then(([general, home]) => {
     const container = document.getElementById("top-container");

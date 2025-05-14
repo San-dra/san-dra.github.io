@@ -1,0 +1,166 @@
+content_title: "blog 1"
+slug: "blog-1"
+
+#== CONTENT TYPE ===
+# 1 = blog, 2 = project, 3 = resource, 4 = knowledge_base (unit)
+content_type: "blog"
+content_destination: "blogs"
+content_subtype: "" # users add if content is tutotial, case study, research, for resources it might be "dataset", "template", "tool", etc.
+highlight: "true" 
+status: "draft"
+
+
+content_source: "blogs/blog-1/content/index.html"
+content_page: "blogs/blog-1/index.html"
+
+excerpt: "" #user-defined subtitle of the blog post 
+author: "san-dra"
+created_timestamp: "2025-05-12 20:00:13"
+created_date: "2025-05-12"
+last_updated_timestamp: "2025-05-12 20:00:13"
+last_updated_date: "2025-05-12"
+content_id: "blogblo1747069213sandra"
+content_repo: "" # GitHub repo link (optional)
+
+
+
+# === EXTERNAL LINKS ===
+live_demo: ""                                  # Live demo or public link (optional)
+live_demo_text: "Live Demo"                    # Text for live demo link (optional)
+
+
+
+thumbnail: "blogs/blog-1/images/thumbnail.png"
+hover_gif: "blogs/blog-1/images/thumbnail.gif"
+banner: "blogs/blog-1/images/banner.png"
+gallery: 
+  - "content_type/title/images/image_1.png"
+  - "content_type/title/images/image_2.png"
+  - "content_type/title/images/image_3.png"
+
+# === FUNCTIONAL DOMAIN (TECHNICAL FOCUS AREAS) ===
+domain: 
+    - domain 1
+    - domain 2
+  # - Data Analysis
+  # - Data Management and Governance
+  # - Data Engineering
+  # - Backend Development
+  # - BI & Data Visualization
+  # - Frontend Development
+  # - Machine Learning
+  # - Full Stack Development
+  # - Artificial Intelligence
+
+subdomain:
+  - domain 1:
+    - subdomain 1
+    - subdomain 2
+  - domain 2:
+    - subdomain 1
+    - subdomain 2
+  #- Data Analysis:
+    #  - Descriptive Analysis
+    #  - Diagnostic Analysis
+    #  - Predictive Analysis
+    #  - Prescriptive Analysis
+  #- Data Management and Governance:
+    #  - Data Quality Management
+    #  - Data Privacy and Security
+    #  - Data Lifecycle Management
+  #- Data Engineering:
+    #  - Data Ingestion and ETL
+    #  - Data Warehousing and Storage
+    #  - Data Pipeline Development
+  #- BI & Data Visualization:
+    #  - Reporting and Dashboards
+    #  - Self-Service BI
+    #  - Interactive Dashboards
+    #  - Storytelling with Data
+  #- Machine Learning:
+    #  - Supervised Learning
+    #  - Unsupervised Learning
+  #- Artificial Intelligence:
+    #  - Natural Language Processing (NLP)
+    #  - Computer Vision
+
+
+# === TECH STACK ===
+techstack:
+    - powerbi
+    - python
+  #  - Python
+  #  - R
+  #  - SQL
+  #  - Excel
+  #  - Tableau
+  #  - Power BI
+  #  - SQL
+  #  - Python
+  #  - R
+  #  - Python
+  #  - SQL
+  #  - Apache Spark
+  #  - Apache Kafka
+  #  - Snowflake
+  #  - Amazon Redshift
+  #  - Flask
+  #  - Spring Boot
+  #  - Node.js
+  #  - Ruby on Rails
+  #  - RESTful APIs
+  #  - GraphQL
+  #  - Tableau
+  #  - Power BI
+  #  - D3.js
+  #  - Plotly
+  #  - Matplotlib
+  #  - Seaborn
+
+# === Application Area  ===
+
+application_area:
+  - application area 1
+  - application area 2
+  #  - Finance
+  #  - Marketing
+  #  - Healthcare
+  #  - Retail
+  #  - E-Commerce
+  #  - Education
+  #  - Social Impact
+  #  - Transportation
+  #  - Environment
+  #  - Factory Automation
+
+tags:
+   - tag 1
+   - tag 2
+  # - dashboard
+  # - real-time data
+  # - batch processing
+  # - automation
+  # - cloud-native
+
+# === Related Projects and Blog Posts ===
+# These are the projects and blog posts that are related to this blog post. 
+related_projects:
+  - projects/project_folder_name
+  - projects/project_folder_name
+
+related_blog_posts:
+  - blog/blog_folder_name
+  - blog/blog_folder_name
+
+related_resources:
+  - resources/resource_folder_name
+  - resources/resource_folder_name
+  
+
+gallery:
+  - "blogs/blog-1/images/image_1.png"
+  - "blogs/blog-1/images/image_2.png"
+  - "blogs/blog-1/images/image_3.png"
+techstack_icons:
+  - /assets/images/powerbi.svg
+  - /assets/images/python.svg
