@@ -2,27 +2,27 @@
     "main_navigation": [
         {
             "text": "Home",
-            "href": "index.html"
+            "href": "/"
         },
         {
             "text": "Resume",
-            "href": "/resume/index.html"
+            "href": "/resume/"
         },
         {
             "text": "Projects",
-            "href": "/projects/index.html"
+            "href": "/projects/"
         },
         {
             "text": "Blogs",
-            "href": "/blogs/index.html"
+            "href": "/blogs/"
         },
         {
             "text": "Resources",
-            "href": "/resources/index.html"
+            "href": "/resources/"
         },
         {
             "text": "Documentation",
-            "href": "/knowledge_base/index.html"
+            "href": "/knowledge_base/"
         }
     ]
 }

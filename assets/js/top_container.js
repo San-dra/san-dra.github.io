@@ -37,14 +37,16 @@ document.addEventListener("DOMContentLoaded", () => {
     ).join("");
 
     // === Inject into HTML ===
+    //check if the screen size is less than 768px then the container.innerHTML will be
+    // changed to the mobile version and if the screen size is greater than 768px then the container.innerHTML will be
+    // changed to the desktop version
+
     container.innerHTML = `
-      <div class="top-bar">
         <div class="branding">
           <h1>${longName}</h1>
         </div>
         <nav class="main-nav">${navLinks}</nav>
         <div class="socials">${socialHTML}</div>
-      </div>
     `;
   })
   .catch(err => {

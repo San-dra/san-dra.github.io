@@ -13,7 +13,7 @@ status: "draft"
 content_source: "blogs/blog-3/content/index.html"
 content_page: "blogs/blog-3/index.html"
 
-excerpt: "" #user-defined subtitle of the blog post 
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." #user-defined subtitle of the blog post 
 author: ""
 created_timestamp: "2025-05-14 01:25:56"
 created_date: "2025-05-14"
@@ -40,7 +40,7 @@ gallery:
 
 # === FUNCTIONAL DOMAIN (TECHNICAL FOCUS AREAS) ===
 domain: 
-    - domain 1
+    - some domain 
     - domain 2
   # - Data Analysis
   # - Data Management and Governance

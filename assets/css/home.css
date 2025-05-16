@@ -1,26 +1,48 @@
 /* ===== home.css ===== */
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #fffcf5;
+    box-sizing: border-box; /* box sizing defines how the width and height of an element are calculated */
+}
+
+head {
+  display: none;
+}
+
+
+
 body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     /*margin based on display size*/
-    padding: 0 0 0 0;
-    padding: 32px 48px 48px;
     background-color: #fafafa;
-    color: #222;
-    height: 100%;
-    border-bottom-width: 1px;
-    border-color:  #191919;
-    border-left-width: 1px;
-    border-right-width: 1px;
+    margin: 1vh;
+    border:  1px solid #494741;
     border-style: solid;
-    border-top-width: 1px;
     display: flex ;
     flex-direction: column;
-    flex-wrap: nowrap; /* Prevent wrapping */
+    flex-wrap: nowrap; /* elements dont move / wrap to accomodate   */
     background-color: #fffcf5;
-
   }
+
+
+/* ===== Top Container full styling: top_container.css ===== */
+.top-container {
+    margin: 0vh 3vh 3vh 3vh;
+    padding: 3vh 3vh 2vh 3vh;
+    background-color:  #fffcf5;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #191919;
+    /* does not move with the page */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
 
 .grid-container {
     font-family: 'Zen Kaku Gothic New', sans-serif;
