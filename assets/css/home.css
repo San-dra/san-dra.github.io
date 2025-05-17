@@ -31,15 +31,17 @@ body {
 /* ===== Top Container full styling: top_container.css ===== */
 .top-container {
     margin: 0vh 3vh 3vh 3vh;
-    padding: 3vh 3vh 2vh 3vh;
+    padding: 3.5vh 3vh 2vh 3vh;
     background-color:  #fffcf5;
-    display: flex;
-    justify-content: space-between;
     border-bottom: 1.5px solid #191919;
     /* does not move with the page */
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+    height: 2vh;
 }
 
 
@@ -48,7 +50,6 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100% !important;
 }
 
 .row {

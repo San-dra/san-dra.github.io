@@ -1,85 +1,239 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 
-/* Branding */
-.branding h1 {
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 1.5rem;
-  margin: 0;
-  font-weight: 900;
+.top-container-wrapper {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+  width: 100%; /* Adjusted to 100% for full width of the parent container*/
+  height: 100%; /* Adjusted to 100% for full height of the parent container */
 }
 
+.nav-menu{
+  width: 0px;
+  height: inherit;
+  display: none;  
+}
+
+/* Proportional width for children */
 .branding {
+  width: 25%;
+  height: inherit;
+  padding: 0px;
+  margin: 0px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  flex-direction: row;
+}
+  .branding h1 {
+    /* Adjusted to 100% for full height of the parent container */
+    width: 100%;
+    line-height: 1;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    /* adjust font based on container height */
+    font-size: 2vw;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: bold;
+    color: #222;
+    text-wrap: nowrap;
+    text-align: left;
+    display: flex;
+    align-items: end;
+  }
+
+
+.nav-wrapper {
+  width: 75%;
+    /* Adjusted to 100% for full height of the parent container */
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
 }
 
-/* Navigation */
-.main-nav {
+.nav-wrapper .main-nav {
+  width: 80%;
+  /* Adjusted to 100% for full height of the parent container */
+  height: inherit;
   display: flex;
-  gap: 1.5rem;
+  flex-direction: row;
+  justify-content: space-evenly; /* space between items will be evenly distributed */
+  padding: 0px;
+  margin: 0px;
 }
 
-.main-nav a {
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 14px;
-  color: #222;
+  .nav-wrapper .main-nav a {
+    /* Adjusted to 100% for full height of the parent container */
+    width: 100%;
+    height: inherit;
+    line-height: 1; /* remove extra space above and below text */
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: normal;
+    text-decoration: none; /* no underline changes on hover and state */
+    font-size: 15px;
+    color: #222;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+  }
+
+.nav-wrapper .socials {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: right; /* Align items to the end of the flex container */
+  padding: 0px;
+  margin: 0px;
 }
+
+  .nav-wrapper .socials a {
+    width:fit-content;
+    height: inherit;
+    padding: 0px 0.5vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: end; /* Align items to the end of the flex container */
+    justify-content: right;
+
+  }
+
+
+
+
+
+
 
 .main-nav a:hover,
 .main-nav a.active {
   text-decoration: underline;
 }
 
-/* Socials */
-.socials {
-  display: flex;
-  gap: 0.75rem;
-}
+
 
 .socials img {
   width: 20px;
   height: 20px;
-  filter: grayscale(100%);
-  transition: filter 0.2s;
 }
 
 .socials img:hover {
   filter: none;
 }
 
-/* Hamburger */
-#menu-toggle {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  display: none;
-  margin-left: auto;
-}
+/* ==== Responsive Design ==== */
 
-/* Mobile Menu */
-#mobile-menu {
-  display: none;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin-top: 1rem;
-}
+/* change nav-warpper to column on smaller screens */
+/* make nav-wrapper into an icon and the content into a dropdown */
+/* Default: hidden nav on small screens */
+@media (max-width: 1080px) {
+  .top-container {
+      height: fit-content;
 
-#mobile-menu.show {
-  display: flex;
-}
+  }
+  .top-container-wrapper {
+    flex-flow: row wrap;
+    justify-content: end;
+    align-items: end;
+  }
+  .branding {
+    width:50%
+  }
+  .branding h1{
+    font-size: 4vw;
+    font-weight: 500;
+  }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .main-nav, .socials {
+  .nav-wrapper {
+    width: 0px;
     display: none;
   }
 
-  #menu-toggle {
-    display: block;
+  .nav-menu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: max(2vw, 4vw);
   }
+  .nav-menu .fa {
+    display: flex;
+    justify-content: end;
+    color: #222;
+  }
+
+  /* When the nav-menu is adjust parent container height to show stacked as dropdown */
+
+  .nav-wrapper.open {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+    height: 30vh;
+  }
+
+
+
+  .nav-wrapper.open .main-nav {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .nav-wrapper.open .main-nav a {
+    width: 100%;
+    height: inherit;
+    font-size: 2vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: end;
+    border-bottom: 1px solid #222;
+
+  }
+
+  
+
+  .nav-wrapper.open .socials {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    }
+
+  .nav-wrapper.open .socials a {
+    width: fit-content;
+    height: inherit;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items to the end of the flex container */
+    justify-content: end;
+
+
+  }
+
+
+  .nav-wrapper.open .socials img {
+        padding-left:  1vw;
+        height: inherit;
+
+    width: 3vw;
+    height: 3vw;
+  }
+
+
 }

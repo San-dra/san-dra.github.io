@@ -87,15 +87,16 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="blog-excerpt">${blog.excerpt}</p>
           <a class="blog-page-link" href="/${blog.content_page}">Read More →</a>
         </div>
+        <div class="blog-card-footer">
+          <p><strong></strong> ${formattedDate}</p>
+          <div class="blog-techicons">${techIconsHTML}</div>
+        </div>
         <div class="blog-card-domain">
           <p><strong>Domain:</strong> ${domainList}</p>
           <p><strong>Subdomain:</strong> ${subdomainString}</p>
           <p><strong></strong> ${applicationarea}</p>  
         </div>
-        <div class="blog-card-footer">
-          <p><strong></strong> ${formattedDate}</p>
-          <div class="blog-techicons">${techIconsHTML}</div>
-        </div>
+
       `;
       container.appendChild(card);
     });
