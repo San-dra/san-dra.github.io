@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // === NAVIGATION LINKS from home_meta.json ===
     const basePath = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
   ? ""
-  : "/my-portfolio"; // replace with your actual repo name if it's not username.github.io
+  : ""; // replace with your actual repo name if it's not username.github.io
 
 const navLinks = (home.main_navigation || []).map(link =>
   `<a href="${basePath}/${link.href}">${link.text}</a>`
