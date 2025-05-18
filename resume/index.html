@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title id="title">Loading Blog...</title>
+
+  <!-- 💡 Main stylesheet for home page -->
+
+  <link rel="stylesheet" href="/assets/css/contact.css" />
+  <script src="/assets/js/contact.js" defer></script>
+
+  <!-- 💡 Script to load blog.json and content/index.html -->
+  <script src="/assets/js/home.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+
+  <script src="/assets/js/home_resume.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home_resume.css" />
+  <script src="/assets/js/home_projects.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home_projects.css" />
+  <script src="/assets/js/home_blogs.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/home_blogs.css" />
+
+
+  <!--  Defines the script for common component definitions  -->
+  <script src="/assets/js/top_container.js" defer></script>
+  <script src="/assets/js/footer.js" defer></script>
+  
+  <!--  Defines the style for common component deinitions  -->
+  <link rel="stylesheet" href="/assets/css/top_container.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+
+  <!-- Responsive hamburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+  <!-- Floating Contact Button -->
+  <div id="contact-float">
+    <button id="chat-toggle" aria-label="Contact Me">💬</button>
+  </div>
+
+  <!-- Hidden Contact Panel -->
+  <div id="contact-panel" class="contact-panel">
+    <div id="contact-header" class="contact-header">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you! Please fill out the form below:</p>
+    </div>
+    <div id="contact-form" class="contact-form" > 
+    <form action="https://formspree.io/f/mldbzqpw" method="POST" >
+
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="_subject">Subject</label>
+      <textarea type="text" name="_subject" id="_subject" rows="1" required></textarea>
+
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    </div>
+  </div>
+
+
+  <div id="top-container" class="top-container"></div>
+
+  
+
+
+  <!-- 🔹 Footer -->
+  <!-- Footer content injected by stlye in main.css, items pulled from footer.js -->
+  <div id = "footer" class="footer"> 
+    <p>© 2023 </p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur maxime, rem rerum atque in obcaecati ratione, commodi esse eveniet optio distinctio, architecto impedit aliquid nihil sed sunt delectus necessitatibus!</p>
+  </div>
+
+</body>
+</html>

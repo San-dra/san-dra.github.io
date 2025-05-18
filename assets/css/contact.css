@@ -29,7 +29,7 @@
 /* ===== Contact Panel ===== */
 .contact-panel {
   position: fixed;
-  bottom: 15vh;
+  bottom: 10vh;
   right: 2vh;
   width: 30%;
   min-height: fit-content;
