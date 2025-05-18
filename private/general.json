@@ -1,0 +1,44 @@
+{
+  "longform_name": "SANDRA HULUKA",
+  "current_location": "Addis Ababa, Ethiopia",
+  "profile_image": "https://sandra-alemayehu.github.io/assets/images/profile.jpg",
+  "contact": [
+    {
+      "phone_number_1": "+251 911 190 437"
+    },
+    {
+      "phone_number_2": "+254 797 646 304"
+    },
+    {
+      "email": "sandra.alemayehu@gmail.com"
+    }
+  ],
+  "social_media": [
+    {
+      "linkedin": "https://www.linkedin.com/in/sandra-alemayehu/"
+    },
+    {
+      "github": "https://github.com/San-dra"
+    },
+    {
+      "website": "https://sandra-alemayehu.github.io/"
+    },
+    {
+      "medium": "https://"
+    }
+  ],
+  "social_media_images": [
+    {
+      "linkedin": "assets/images/linkedin.svg"
+    },
+    {
+      "github": "assets/images/github.svg"
+    },
+    {
+      "website": "assets/images/website.svg"
+    },
+    {
+      "medium": "assets/images/medium.svg"
+    }
+  ]
+}
