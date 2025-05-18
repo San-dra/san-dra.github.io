@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // === SOCIAL MEDIA (Fix mapping from array of objects) ===
     const socialLinksArray = general.social_media || [];
-    const iconLinksArray = general.social_media_images || [];
+    const iconLinksArray = general.social_media_images_local || [];
 
     const socialLinks = Object.assign({}, ...socialLinksArray);
     const iconLinks = Object.assign({}, ...iconLinksArray);
