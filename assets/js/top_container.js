@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!container) return;
 
     // === BRANDING (Update display name) ===
-    const longName = general.longform_name ;
+    const longName = general.longform_name || "";
 
     // === SOCIAL MEDIA (Fix mapping from array of objects) ===
     const socialLinksArray = general.social_media || [];
@@ -97,19 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const currentPath = window.location.pathname.replace(/\/$/, '');
 
-document.querySelectorAll(".main-nav a").forEach(link => {
-  const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, '');
-  
-  console.log("🔍 Comparing:");
-  console.log("  Current page path: ", currentPath);
-  console.log("  Link href path:    ", linkPath);
-
-  if (currentPath === linkPath) {
-    link.classList.add("active");
-  }
-});
 
 
 
