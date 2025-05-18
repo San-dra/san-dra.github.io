@@ -6,6 +6,9 @@
 
   <!-- 💡 Main stylesheet for home page -->
 
+  <link rel="stylesheet" href="/assets/css/contact.css" />
+  <script src="/assets/js/contact.js" defer></script>
+
   <!-- 💡 Script to load blog.json and content/index.html -->
   <script src="/assets/js/home.js" defer></script>
   <link rel="stylesheet" href="/assets/css/home.css" />
@@ -36,6 +39,39 @@
 </head>
 
 <body>
+  <!-- Floating Contact Button -->
+  <div id="contact-float">
+    <button id="chat-toggle" aria-label="Contact Me">💬</button>
+  </div>
+
+  <!-- Hidden Contact Panel -->
+  <div id="contact-panel" class="contact-panel">
+    <div id="contact-header" class="contact-header">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you! Please fill out the form below:</p>
+    </div>
+    <div id="contact-form" class="contact-form" > 
+    <form action="https://formspree.io/f/mldbzqpw" method="POST" >
+
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="_subject">Subject</label>
+      <textarea type="text" name="_subject" id="_subject" rows="1" required></textarea>
+
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    </div>
+  </div>
+
+
   <div id="top-container" class="top-container">
     
   </div>

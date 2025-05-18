@@ -12,7 +12,7 @@
 }
 
 .nav-menu{
-  width: 0px;
+  width: 0%;
   height: inherit;
   display: none;  
 }
@@ -37,7 +37,7 @@
     margin: 0px;
     font-weight: 400;
     font-style: bold;
-    color: #222;
+    color: #4c4637;
     text-wrap: nowrap;
     text-align: left;
     display: flex;
@@ -69,12 +69,13 @@
     /* Adjusted to 100% for full height of the parent container */
     width: 100%;
     height: inherit;
-    line-height: 1; /* remove extra space above and below text */
+    position: relative;
+    line-height: 2; /* remove extra space above and below text */
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: normal;
     text-decoration: none; /* no underline changes on hover and state */
     font-size: 15px;
-    color: #222;
+    color: #4c4637;
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -83,6 +84,29 @@
     justify-content: center;
 
   }
+
+  .nav-wrapper .main-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #4c4637;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in-out;
+}
+
+/* On hover, animate the underline */
+.nav-wrapper .main-nav a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-wrapper.open .main-nav a.active::after {
+  transform: scaleX(1);
+}
+
 
 .nav-wrapper .socials {
   width: 20%;
@@ -111,23 +135,22 @@
 
 
 
-
-
-.main-nav a:hover,
-.main-nav a.active {
-  text-decoration: underline;
-}
-
-
-
 .socials img {
-  width: 20px;
-  height: 20px;
+  width: 1.5vw;
+  height: 1.5vw;
+
 }
+
 
 .socials img:hover {
   filter: none;
+  outline: 2px solid var(--color, #4c4637);
+  border-radius: 20px;
+  width: 2vw;
+  height: 2vw;
+  transition: outline 0.1s ease;
 }
+
 
 /* ==== Responsive Design ==== */
 
@@ -167,7 +190,7 @@
   .nav-menu .fa {
     display: flex;
     justify-content: end;
-    color: #222;
+    color: #4c4637;
   }
 
   /* When the nav-menu is adjust parent container height to show stacked as dropdown */
@@ -178,7 +201,7 @@
     flex-wrap: wrap;
     justify-content: start;
     width: 100%;
-    height: 30vh;
+    height: 45vh;
   }
 
 
@@ -194,45 +217,40 @@
   .nav-wrapper.open .main-nav a {
     width: 100%;
     height: inherit;
+    position: relative;
     font-size: 2vh;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
     display: flex;
     justify-content: start;
     align-items: center;
-    justify-content: end;
-    border-bottom: 1px solid #222;
+    justify-content: end;    
 
   }
-
+  
   
 
   .nav-wrapper.open .socials {
     height: 15%;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-
     }
 
-  .nav-wrapper.open .socials a {
-    width: fit-content;
-    height: inherit;
-    line-height: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center; /* Align items to the end of the flex container */
-    justify-content: end;
-
-
-  }
+  
 
 
   .nav-wrapper.open .socials img {
-        padding-left:  1vw;
-        height: inherit;
-
     width: 3vw;
     height: 3vw;
+  }
+
+  .nav-wrapper.open .socials img:hover {
+    filter: none;
+    outline: 2px solid var(--color, #4c4637);
+    border-radius: 20px;
+    transition: outline 0.3s ease;
+    width: 4vw;
+    height: 4vw;
   }
 
 

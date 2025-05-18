@@ -1,28 +1,29 @@
 {
     "main_navigation": [
         {
-            "text": "Home",
-            "href": "/"
+            "text": "HOME",
+            "href": "index.html"
         },
         {
-            "text": "Resume",
-            "href": "/resume/"
+            "text": "RESUME",
+            "href": "/resume/index.html"
+        },
+
+        {
+            "text": "PROJECTS",
+            "href": "/projects/index.html"
         },
         {
-            "text": "Projects",
-            "href": "/projects/"
+            "text": "BLOGS",
+            "href": "/blogs/index.html"
         },
         {
-            "text": "Blogs",
-            "href": "/blogs/"
+            "text": "RESOURCES",
+            "href": "/resources/index.html"
         },
         {
-            "text": "Resources",
-            "href": "/resources/"
-        },
-        {
-            "text": "Documentation",
-            "href": "/knowledge_base/"
+            "text": "PKB",
+            "href": "/knowledge_base/index.html"
         }
     ]
 }
