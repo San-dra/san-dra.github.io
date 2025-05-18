@@ -6,24 +6,24 @@
         },
         {
             "text": "RESUME",
-            "href": "/resume/index.html"
+            "href": "resume/index.html"
         },
 
         {
             "text": "PROJECTS",
-            "href": "/projects/index.html"
+            "href": "projects/index.html"
         },
         {
             "text": "BLOGS",
-            "href": "/blogs/index.html"
+            "href": "blogs/index.html"
         },
         {
             "text": "RESOURCES",
-            "href": "/resources/index.html"
+            "href": "resources/index.html"
         },
         {
             "text": "PKB",
-            "href": "/knowledge_base/index.html"
+            "href": "knowledge_base/index.html"
         }
     ]
 }

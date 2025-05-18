@@ -32,9 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }).join("");
 
     // === NAVIGATION LINKS from home_meta.json ===
-    const navLinks = (home.main_navigation || []).map(link => 
-      `<a href="/${link.href}">${link.text}</a>`
-    ).join("");
+    const basePath = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+  ? ""
+  : "/my-portfolio"; // replace with your actual repo name if it's not username.github.io
+
+const navLinks = (home.main_navigation || []).map(link =>
+  `<a href="${basePath}/${link.href}">${link.text}</a>`
+).join("");
+
 
     // === Inject into HTML ===
 
@@ -76,8 +81,40 @@ document.addEventListener("DOMContentLoaded", () => {
         menuCloseIcon.style.display = "none";
       });
 
+      // === active link === //
+      const currentPath = window.location.pathname.replace(/\/$/, '');
+
+      document.querySelectorAll(".main-nav a").forEach(link => {
+        const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, '');
+      
+        console.log("🔍 Comparing:");
+        console.log("  Current page path: ", currentPath);
+        console.log("  Link href path:    ", linkPath);
+
+        if (currentPath === linkPath) {
+          link.classList.add("active");
+        }
+      });             
+
   })
   .catch(err => {
     console.error("❌ Failed to load top container data:", err);
   });
 });
+
+const currentPath = window.location.pathname.replace(/\/$/, '');
+
+document.querySelectorAll(".main-nav a").forEach(link => {
+  const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, '');
+  
+  console.log("🔍 Comparing:");
+  console.log("  Current page path: ", currentPath);
+  console.log("  Link href path:    ", linkPath);
+
+  if (currentPath === linkPath) {
+    link.classList.add("active");
+  }
+});
+
+
+
