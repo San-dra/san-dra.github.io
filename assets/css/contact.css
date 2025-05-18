@@ -7,24 +7,42 @@
   right: 0;
   margin: 0vh 3vh 3vh 3vh;
   padding: 3.5vh 3vh 2vh 3vh;
-  z-index: 1001;
+  z-index: 999;
 }
-
 #chat-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   background-color: #191919;
   color: #fffcf5;
   border: none;
-  border-radius: 50%;
-  padding: 0.5em;
-  font-size: 1.5rem;
+  border-radius: 2rem;
+  padding: 0.75rem 1.25rem;
+  font-family: "Zen Kaku Gothic New", monospace, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 #chat-toggle:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  background-color: #333;
 }
+
+#chat-toggle .chat-icon {
+  font-size: 1.2rem;
+}
+
+#chat-toggle .chat-label {
+  display: inline;
+}
+
+
+
 
 /* ===== Contact Panel ===== */
 .contact-panel {
@@ -36,7 +54,7 @@
   background-color: #fffcf5;
   margin: 0vh 4vh 3vh 3vh;
   padding: 3.5vh 3vh 2vh 3vh;
-  z-index: 1001;
+  z-index: 999;
   transform: translateY(100%);
   opacity: 0;
   pointer-events: none;
@@ -90,6 +108,7 @@
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    
 }
 
 
@@ -137,6 +156,47 @@
 
 .contact-form button:hover {
   background-color: #333;
+}
+
+@media (max-width: 1080px) {
+  /* Contact panel layout for mobile */
+  
+  #chat-toggle {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .contact-panel.show{
+    background-color: red;
+    width: 60%;
+    height: fit-content;
+  }
+
+
+  .contact-header h2 {
+    font-size: 0.85rem;
+  }
+
+  .contact-header p {
+    font-size: 0.75rem;
+  }
+
+  .contact-form form label {
+    font-size: 0.75rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+  }
+
+  .contact-form button[type="submit"] {
+    font-size: 0.75rem;
+    padding: 0.45rem;
+  }
+
+  
 }
 
 
