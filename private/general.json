@@ -19,16 +19,16 @@
     ],
     "social_media_images": [
         {
-            "linkedin": "https://sandra-alemayehu.github.io/assets/images/linkedin.png"
+            "linkedin": "assets/images/linkedin.svg"
         },
         {
-            "github": "https://sandra-alemayehu.github.io/assets/images/github.png"
+            "github": "assets/images/github.svg"
         },
         {
-            "website": "https://sandra-alemayehu.github.io/assets/images/website.png"
+            "website": "assets/images/website.svg"
         },
         {
-            "medium": "https://sandra-alemayehu.github.io/assets/images/medium.png"
+            "medium": "assets/images/medium.svg"
         }
     ]
 }
